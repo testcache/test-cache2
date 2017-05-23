@@ -1,0 +1,4 @@
+COMMAND=PREPARE_LIBRARY
+FILE_PATH=/opt/android-sdk-linux/extras/google/m2repository/com/google/android/gms/play-services-base/9.6.1/play-services-base-9.6.1.aar
+FILE_SIZE=502803
+FILE_TIMESTAMP=1495161381000

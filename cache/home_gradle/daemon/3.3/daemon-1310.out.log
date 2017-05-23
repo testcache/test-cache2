@@ -1,57 +1,57 @@
-13:44:53.023 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxPermSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx1024m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
-13:44:53.107 [INFO] [org.gradle.launcher.daemon.server.health.gc.GarbageCollectionMonitor] Unable to determine a garbage collection monitoring strategy for JVMStrategy{Oracle Corporation version 1.8.0_131}
-13:44:53.226 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
-13:44:53.256 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface eth0
-13:44:53.257 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
-13:44:53.258 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
-13:44:53.260 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:42:acff:fe11:2%eth0
-13:44:53.262 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.17.0.2
-13:44:53.264 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface eth0
-13:44:53.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
-13:44:53.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
-13:44:53.266 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
-13:44:53.266 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
-13:44:53.273 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
-13:44:53.277 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]].
-13:44:53.286 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Tue May 23 13:44:53 UTC 2017, with address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:44:53.287 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:44:53.288 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
-13:44:53.289 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]], context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
-13:44:53.300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
-13:44:53.303 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
-13:44:53.431 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
-13:44:53.432 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
-13:44:53.453 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:60268 to /0:0:0:0:0:0:0:1:42282.
-13:44:53.465 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
-13:44:54.044 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Build
-13:44:54.053 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}
-13:44:54.060 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}.
-13:44:54.060 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src} with connection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268.
-13:44:54.069 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268] after 0.0 minutes of idle
-13:44:54.069 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:44:54.070 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:44:54.070 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
-13:44:54.071 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
-13:44:54.072 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
-13:44:54.073 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
-13:44:54.106 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}. Dispatching build started information...
-13:44:54.107 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
-13:44:54.111 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
-13:44:54.124 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {GIT_CLONE_COMMIT_COMMITER_EMAIL=moxie@thoughtcrime.org, PATH=/root/.bitrise/tools:/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/tools/bin:/opt/android-sdk-linux/platform-tools:/opt/android-ndk, GIT_CLONE_COMMIT_AUTHOR_NAME=Moxie Marlinspike, PR=false, BITRISE_DEPLOY_DIR=/bitrise/deploy, mapping_file_exclude_filter=, ANDROID_HOME=/opt/android-sdk-linux, GIT_CLONE_COMMIT_MESSAGE_SUBJECT=Bump version to 4.6.0, BITRISE_PROVISION_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/BuildAnything.mobileprovision, TOOL_VER_DOCKER_COMPOSE=1.11.2, LD_LIBRARY_PATH=:/opt/android-sdk-linux/tools/lib64, BITRISE_IO=true, ANDROID_NDK_VERSION=r14b, BITRISE_STEP_FORMATTED_OUTPUT_FILE_PATH=/tmp/bitrise850679540/formatted_output.md, BITRISE_SOURCE_DIR=/bitrise/src, GIT_CLONE_COMMIT_MESSAGE_BODY=// FREEBIE
-, PWD=/bitrise/src, BITRISE_PREP_DIR=/bitrise/prep, BITRISE_CACHE_API_URL=https://bitrise-build-cache.herokuapp.com/cache/129832f91874c329/1sMyBBoxEyZihrTMWxpAdA, LOGLEVEL=info, BITRISE_GIT_MESSAGE=test git based cache, GCLOUD_SDK_CONFIG=/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/config.json, LANGUAGE=en_US.UTF-8, BITRISE_BUILD_NUMBER=67, apk_file_exclude_filter=*-unaligned.apk, ANDROID_NDK_HOME=/opt/android-ndk, BITRISE_BUILD_TRIGGER_TIMESTAMP=1495546998, GIT_CLONE_COMMIT_AUTHOR_EMAIL=moxie@thoughtcrime.org, GOPATH=/go, OLDPWD=/bitrise/src, BITRISE_TRIGGERED_WORKFLOW_ID=custom-cache, GIT_CLONE_COMMIT_COMMITER_NAME=Moxie Marlinspike, BITRISE_TRIGGERED_WORKFLOW_TITLE=custom-cache, BITRISE_CACHE_DIR=/bitrise/cache, LC_ALL=en_US.UTF-8, BITRISE_BUILD_STATUS=0, SHLVL=0, gradlew_path=./gradlew, BITRISE_APP_URL=https://www.bitrise.io/app/f555a364cd3c8a65, QT_QPA_PLATFORM=offscreen, BITRISE_CERTIFICATE_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/Certificates.p12, TOOL_VER_DOCKER=17.03.1, ENVMAN_ENVSTORE_PATH=/tmp/bitrise850679540/output_envstore.yml, TOOL_VER_RUBY=2.4.1, LANG=en_US.UTF-8, BITRISE_DOCKER_REV_NUMBER_ANDROID=v2017_05_10_1, BITRISE_BUILD_API_TOKEN=1sMyBBoxEyZihrTMWxpAdA, GIT_CLONE_COMMIT_HASH=15df691017a308cb5bdbef4de90d4657ceafaadd, BITRISE_GIT_BRANCH=master, mapping_file_include_filter=*/mapping.txt, apk_file_include_filter=*.apk, BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK=v2017_03_29_1, GIT_REPOSITORY_URL=https://github.com/WhisperSystems/Signal-Android.git, TOOL_VER_GO=1.8.1, BITRISE_DOCKER_REV_NUMBER_BASE=v2017_05_11_1, CI=true, BITRISE_APP_TITLE=cache-performance, BITRISE_BUILD_URL=https://www.bitrise.io/build/129832f91874c329, BITRISE_BUILD_SLUG=129832f91874c329, gradle_options=--stacktrace, HOSTNAME=fa4ce15e5aae, TOOL_VER_BITRISE_CLI=1.6.1, gradle_file=build.gradle, BITRISE_CERTIFICATE_PASSPHRASE=Concrete, STEPLIB_BUILD_STATUS=0, gradle_task=assembleDebug, HOME=/root, BITRISE_APP_SLUG=f555a364cd3c8a65, BITRISE_BRIDGE_WORKDIR=/bitrise/src}
-13:44:54.139 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
-13:44:54.140 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
-13:44:54.151 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
-13:44:54.157 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 1310). The daemon log file: /root/.gradle/daemon/3.3/daemon-1310.out.log
-13:44:54.166 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 954.7 MB]
-13:44:54.174 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
-13:44:54.175 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
-13:44:54.189 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.CloseInput
-13:44:54.190 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@698fcc0b
-13:44:54.194 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
-13:44:54.194 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
-13:44:54.665 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for plugin-use-metadata, path /root/.gradle/caches/3.3/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@6cc52e99
-13:44:54.673 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for client-status, path /root/.gradle/caches/3.3/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@6cc52e99
+13:49:30.052 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxPermSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx1024m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+13:49:30.124 [INFO] [org.gradle.launcher.daemon.server.health.gc.GarbageCollectionMonitor] Unable to determine a garbage collection monitoring strategy for JVMStrategy{Oracle Corporation version 1.8.0_131}
+13:49:30.235 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=e9289d1d-1d49-4358-ae60-c65ec70860a8,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:49:30.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface eth0
+13:49:30.268 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:49:30.269 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:49:30.269 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:42:acff:fe11:2%eth0
+13:49:30.274 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.17.0.2
+13:49:30.274 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface eth0
+13:49:30.274 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
+13:49:30.275 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+13:49:30.278 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:49:30.278 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
+13:49:30.283 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+13:49:30.290 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]].
+13:49:30.298 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Tue May 23 13:49:30 UTC 2017, with address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:49:30.298 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:49:30.299 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=e9289d1d-1d49-4358-ae60-c65ec70860a8,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:49:30.300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]], context: DefaultDaemonContext[uid=e9289d1d-1d49-4358-ae60-c65ec70860a8,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:49:30.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:49:30.316 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:49:30.458 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:49:30.459 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+13:49:30.482 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:35836 to /0:0:0:0:0:0:0:1:44084.
+13:49:30.495 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:49:31.081 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Build
+13:49:31.082 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}
+13:49:31.085 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}.
+13:49:31.085 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src} with connection: socket connection from /0:0:0:0:0:0:0:1:44084 to /0:0:0:0:0:0:0:1:35836.
+13:49:31.090 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+13:49:31.095 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:44084 to /0:0:0:0:0:0:0:1:35836] after 0.0 minutes of idle
+13:49:31.096 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:49:31.096 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:49:31.097 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:49:31.097 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:49:31.099 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:49:31.099 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+13:49:31.104 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}. Dispatching build started information...
+13:49:31.104 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:49:31.156 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+13:49:31.157 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:49:31.161 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {GIT_CLONE_COMMIT_COMMITER_EMAIL=moxie@thoughtcrime.org, PATH=/root/.bitrise/tools:/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/tools/bin:/opt/android-sdk-linux/platform-tools:/opt/android-ndk, GIT_CLONE_COMMIT_AUTHOR_NAME=Moxie Marlinspike, PR=false, BITRISE_DEPLOY_DIR=/bitrise/deploy, mapping_file_exclude_filter=, ANDROID_HOME=/opt/android-sdk-linux, GIT_CLONE_COMMIT_MESSAGE_SUBJECT=Bump version to 4.6.0, BITRISE_PROVISION_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/BuildAnything.mobileprovision, TOOL_VER_DOCKER_COMPOSE=1.11.2, LD_LIBRARY_PATH=:/opt/android-sdk-linux/tools/lib64, BITRISE_IO=true, ANDROID_NDK_VERSION=r14b, BITRISE_STEP_FORMATTED_OUTPUT_FILE_PATH=/tmp/bitrise507451040/formatted_output.md, BITRISE_SOURCE_DIR=/bitrise/src, GIT_CLONE_COMMIT_MESSAGE_BODY=// FREEBIE
+, PWD=/bitrise/src, BITRISE_PREP_DIR=/bitrise/prep, BITRISE_CACHE_API_URL=https://bitrise-build-cache.herokuapp.com/cache/5983e5e2bcb6c376/pxydabqb6ZeEHS3ObasVDA, LOGLEVEL=info, BITRISE_GIT_MESSAGE=test git based cache, GCLOUD_SDK_CONFIG=/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/config.json, LANGUAGE=en_US.UTF-8, BITRISE_BUILD_NUMBER=68, apk_file_exclude_filter=*-unaligned.apk, ANDROID_NDK_HOME=/opt/android-ndk, BITRISE_BUILD_TRIGGER_TIMESTAMP=1495547291, GIT_CLONE_COMMIT_AUTHOR_EMAIL=moxie@thoughtcrime.org, GOPATH=/go, OLDPWD=/bitrise/src, BITRISE_TRIGGERED_WORKFLOW_ID=custom-cache, GIT_CLONE_COMMIT_COMMITER_NAME=Moxie Marlinspike, BITRISE_TRIGGERED_WORKFLOW_TITLE=custom-cache, BITRISE_CACHE_DIR=/bitrise/cache, LC_ALL=en_US.UTF-8, BITRISE_BUILD_STATUS=0, SHLVL=0, gradlew_path=./gradlew, BITRISE_APP_URL=https://www.bitrise.io/app/f555a364cd3c8a65, QT_QPA_PLATFORM=offscreen, BITRISE_CERTIFICATE_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/Certificates.p12, TOOL_VER_DOCKER=17.03.1, ENVMAN_ENVSTORE_PATH=/tmp/bitrise507451040/output_envstore.yml, TOOL_VER_RUBY=2.4.1, LANG=en_US.UTF-8, BITRISE_DOCKER_REV_NUMBER_ANDROID=v2017_05_10_1, BITRISE_BUILD_API_TOKEN=pxydabqb6ZeEHS3ObasVDA, GIT_CLONE_COMMIT_HASH=15df691017a308cb5bdbef4de90d4657ceafaadd, BITRISE_GIT_BRANCH=master, mapping_file_include_filter=*/mapping.txt, apk_file_include_filter=*.apk, BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK=v2017_03_29_1, GIT_REPOSITORY_URL=https://github.com/WhisperSystems/Signal-Android.git, TOOL_VER_GO=1.8.1, BITRISE_DOCKER_REV_NUMBER_BASE=v2017_05_11_1, CI=true, BITRISE_APP_TITLE=cache-performance, BITRISE_BUILD_URL=https://www.bitrise.io/build/5983e5e2bcb6c376, BITRISE_BUILD_SLUG=5983e5e2bcb6c376, gradle_options=--stacktrace, HOSTNAME=3ff1cda7abe5, TOOL_VER_BITRISE_CLI=1.6.1, gradle_file=build.gradle, BITRISE_CERTIFICATE_PASSPHRASE=Concrete, STEPLIB_BUILD_STATUS=0, gradle_task=assembleDebug, HOME=/root, BITRISE_APP_SLUG=f555a364cd3c8a65, BITRISE_BRIDGE_WORKDIR=/bitrise/src}
+13:49:31.178 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:49:31.179 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@70327c14
+13:49:31.195 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:49:31.196 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 1310). The daemon log file: /root/.gradle/daemon/3.3/daemon-1310.out.log
+13:49:31.203 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 954.7 MB]
+13:49:31.216 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:49:31.222 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=e9289d1d-1d49-4358-ae60-c65ec70860a8,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:49:31.223 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:49:31.228 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:49:31.784 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for plugin-use-metadata, path /root/.gradle/caches/3.3/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@47582efd
+13:49:31.789 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for client-status, path /root/.gradle/caches/3.3/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@47582efd
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -151,21 +151,72 @@ Finishing "Install Android SDK Build-Tools 25 (revision: 25.0.0)"
 Installing Android SDK Build-Tools 25 in /opt/android-sdk-linux/build-tools/25.0.0
 "Install Android SDK Build-Tools 25 (revision: 25.0.0)" complete.
 "Install Android SDK Build-Tools 25 (revision: 25.0.0)" finished.
-Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-Download https://repo1.maven.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.3.0/libphonenumber-8.3.0.jar
-Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
-Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.0/jackson-core-2.5.0.jar
-Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.0/jackson-databind-2.5.0.jar
-Download https://repo1.maven.org/maven2/com/squareup/okio/okio/1.11.0/okio-1.11.0.jar
-Download https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar
-Download https://repo1.maven.org/maven2/org/whispersystems/signal-service-java/2.5.6/signal-service-java-2.5.6.jar
-Download https://repo1.maven.org/maven2/org/whispersystems/curve25519-java/0.3.0/curve25519-java-0.3.0.jar
-Download https://repo1.maven.org/maven2/org/whispersystems/curve25519-android/0.3.0/curve25519-android-0.3.0.aar
-Download https://repo1.maven.org/maven2/org/whispersystems/signal-protocol-java/2.4.0/signal-protocol-java-2.4.0.jar
-Download https://repo1.maven.org/maven2/org/whispersystems/signal-protocol-android/2.4.0/signal-protocol-android-2.4.0.aar
-Download https://repo1.maven.org/maven2/com/nineoldandroids/library/2.4.0/library-2.4.0.jar
-Download https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-Download https://repo1.maven.org/maven2/com/madgag/spongycastle/core/1.51.0.0/core-1.51.0.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/dagger/dagger-compiler/1.2.2/dagger-compiler-1.2.2.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava/15.0/guava-15.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/dagger/dagger-compiler/1.2.2/dagger-compiler-1.2.2.jar
+Incremental java compilation is an incubating feature.
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+Download https://repo1.maven.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.pom
+Download https://repo1.maven.org/maven2/org/assertj/assertj-parent-pom/1.2.6/assertj-parent-pom-1.2.6.pom
+Download https://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-mockito/1.6.1/powermock-api-mockito-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api/1.6.1/powermock-api-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock/1.6.1/powermock-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.1/powermock-module-junit4-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-modules/1.6.1/powermock-modules-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-rule/1.6.1/powermock-module-junit4-rule-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-classloading-xstream/1.6.1/powermock-classloading-xstream-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-classloading-module/1.6.1/powermock-classloading-module-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+Download https://repo1.maven.org/maven2/org/mockito/mockito-all/1.10.8/mockito-all-1.10.8.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.1/powermock-api-support-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/powermock-module-junit4-common-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-classloading-base/1.6.1/powermock-classloading-base-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.pom
+Download https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom
+Download https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.2/xstream-parent-1.4.2.pom
+Download https://repo1.maven.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+Download https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.1/powermock-reflect-1.6.1.pom
+Download https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom
+Download https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+Download https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+Download https://repo1.maven.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.jar
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+Download https://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+Download https://repo1.maven.org/maven2/org/mockito/mockito-all/1.10.8/mockito-all-1.10.8.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-reflect/1.6.1/powermock-reflect-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-support/1.6.1/powermock-api-support-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-api-mockito/1.6.1/powermock-api-mockito-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/powermock-module-junit4-common-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4/1.6.1/powermock-module-junit4-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-classloading-base/1.6.1/powermock-classloading-base-1.6.1.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-rule/1.6.1/powermock-module-junit4-rule-1.6.1.jar
+Download https://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+Download https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+Download https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.jar
+Download https://repo1.maven.org/maven2/org/powermock/powermock-classloading-xstream/1.6.1/powermock-classloading-xstream-1.6.1.jar
+Download https://repo1.maven.org/maven2/com/google/dexmaker/dexmaker/1.2/dexmaker-1.2.pom
+Download https://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-parent/1.2/dexmaker-parent-1.2.pom
+Download https://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-mockito/1.2/dexmaker-mockito-1.2.pom
+Download https://repo1.maven.org/maven2/com/squareup/assertj/assertj-android/1.1.1/assertj-android-1.1.1.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+Download https://repo1.maven.org/maven2/com/google/dexmaker/dexmaker/1.2/dexmaker-1.2.jar
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+Download https://repo1.maven.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+Download https://repo1.maven.org/maven2/com/google/dexmaker/dexmaker-mockito/1.2/dexmaker-mockito-1.2.jar
+Download https://repo1.maven.org/maven2/com/squareup/assertj/assertj-android/1.1.1/assertj-android-1.1.1.jar
 Verifying com.android.support:appcompat-v7
 Verifying com.android.support:recyclerview-v7
 Verifying com.android.support:design
@@ -199,19 +250,12 @@ Verifying com.squareup.dagger:dagger
 Verifying com.doomonafireball.betterpickers:library
 Verifying com.madgag.spongycastle:prov
 Verifying com.amulyakhare:com.amulyakhare.textdrawable
-Download https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar
 Verifying com.h6ah4i.android.compat:mulsellistprefcompat
-Download https://jcenter.bintray.com/com/h6ah4i/android/compat/mulsellistprefcompat/1.0.0/mulsellistprefcompat-1.0.0.aar
 Verifying com.google.zxing:core
-Download https://repo1.maven.org/maven2/com/google/zxing/core/3.2.1/core-3.2.1.jar
 Verifying com.davemorrissey.labs:subsampling-scale-image-view
-Download https://repo1.maven.org/maven2/com/davemorrissey/labs/subsampling-scale-image-view/3.6.0/subsampling-scale-image-view-3.6.0.aar
 Verifying cn.carbswang.android:NumberPickerView
-Download https://jcenter.bintray.com/cn/carbswang/android/NumberPickerView/1.0.9/NumberPickerView-1.0.9.aar
 Verifying com.tomergoldst.android:tooltips
-Download https://jcenter.bintray.com/com/tomergoldst/android/tooltips/1.0.6/tooltips-1.0.6.aar
 Verifying com.klinkerapps:android-smsmms
-Download https://repo1.maven.org/maven2/com/klinkerapps/android-smsmms/4.0.1/android-smsmms-4.0.1.aar
 Verifying com.android.support:support-v4
 Verifying com.android.support:support-vector-drawable
 Verifying com.android.support:animated-vector-drawable
@@ -227,7 +271,6 @@ Verifying com.nineoldandroids:library
 Verifying javax.inject:javax.inject
 Verifying com.madgag.spongycastle:core
 Verifying com.klinkerapps:logger
-Download https://repo1.maven.org/maven2/com/klinkerapps/logger/1.0.3/logger-1.0.3.jar
 Verifying com.google.android.gms:play-services-tasks
 Verifying com.google.protobuf:protobuf-java
 Verifying com.googlecode.libphonenumber:libphonenumber
@@ -243,189 +286,696 @@ Verifying com.android.support:support-annotations
 Verifying com.android.support:support-media-compat
 Verifying com.android.support:support-core-utils
 Verifying com.android.support:support-fragment
+:preBuild UP-TO-DATE
+:extractProguardFiles
+:prePlayDebugBuild
+:checkPlayDebugManifest
+:prePlayReleaseBuild
+:preWebsiteDebugBuild
+:preWebsiteReleaseBuild
+:prepareCnCarbswangAndroidNumberPickerView109Library
+:prepareComAmulyakhareComAmulyakhareTextdrawable101Library
+:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:prepareComAndroidSupportAppcompatV72510Library
+:prepareComAndroidSupportCardviewV72510Library
+:prepareComAndroidSupportDesign2510Library
+:prepareComAndroidSupportGridlayoutV72510Library
+:prePlayDebugAndroidTestBuild
+:preWebsiteDebugAndroidTestBuild
+:prepareComAndroidSupportMultidex101Library
+:prepareComAndroidSupportRecyclerviewV72510Library
+:prepareComAndroidSupportSupportCompat2510Library
+:prepareComAndroidSupportSupportCoreUi2510Library
+:prepareComAndroidSupportSupportCoreUtils2510Library
+:prepareComAndroidSupportSupportFragment2510Library
+:prepareComAndroidSupportSupportMediaCompat2510Library
+:prepareComAndroidSupportSupportV132510Library
+:prepareComAndroidSupportSupportV42510Library
+:prepareComAndroidSupportSupportV4Preferencefragment100Library
+:prepareComAndroidSupportSupportVectorDrawable2510Library
+:prepareComAndroidSupportTransition2510Library
+:prepareComDavemorrisseyLabsSubsamplingScaleImageView360Library
+:prepareComDoomonafireballBetterpickersLibrary153Library
+:prepareComGithubChrisbanesPhotoviewLibrary131Library
+:prepareComGoogleAndroidExoplayerExoplayerR231Library
+:prepareComGoogleAndroidGmsPlayServicesBase961Library
+:prepareComGoogleAndroidGmsPlayServicesBasement961Library
+:prepareComGoogleAndroidGmsPlayServicesGcm961Library
+:prepareComGoogleAndroidGmsPlayServicesIid961Library
+:prepareComGoogleAndroidGmsPlayServicesMaps961Library
+:prepareComGoogleAndroidGmsPlayServicesPlaces961Library
+:prepareComGoogleAndroidGmsPlayServicesTasks961Library
+:prepareComH6ah4iAndroidCompatMulsellistprefcompat100Library
+:prepareComJpardogoMaterialtabstripLibrary109Library
+:prepareComKlinkerappsAndroidSmsmms401Library
+:prepareComMakeramenRoundedimageview210Library
+:prepareComMelnykovFloatingactionbutton130Library
+:prepareComPnikosisMaterialishProgress15Library
+:prepareComSoundcloudAndroidAndroidCrop0910Library
+:prepareComTomergoldstAndroidTooltips106Library
+:prepareMeLeolinShortcutBadger1116Library
+:prepareOrgWhispersystemsCurve25519Android030Library
+:prepareOrgWhispersystemsJobmanager102Library
+:prepareOrgWhispersystemsLibpastelog107Library
+:prepareOrgWhispersystemsSignalProtocolAndroid240Library
+:prepareOrgWhispersystemsSignalServiceAndroid256Library
+:prepareOrgWhispersystemsWebrtcAndroidM57S2Library
+:preparePlTajchertWaitingdots010Library
+:prepareSeEmilsjolanderStickylistheaders270Library
+:preparePlayDebugDependencies
+:compilePlayDebugAidl
+:compilePlayDebugRenderscript
+:generatePlayDebugBuildConfig
+:generatePlayDebugResValues
+:generatePlayDebugResources
+:mergePlayDebugResources
+:processPlayDebugManifest
+:processPlayDebugResources
+:generatePlayDebugSources
+:incrementalPlayDebugJavaCompilationSafeguard
+:javaPreCompilePlayDebug
+:compilePlayDebugJavaWithJavac
+:compilePlayDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:compilePlayDebugNdk UP-TO-DATE
+:compilePlayDebugSources
+:mergePlayDebugShaders
+:compilePlayDebugShaders
+:generatePlayDebugAssets
+:mergePlayDebugAssets
+:processPlayDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForPlayDebug
+:transformClassesAndResourcesWithProguardForPlayDebug
+ProGuard, version 5.3.2
+Reading input...
+Reading program jar [/root/.android/build-cache/5f0ec3f7baf710c5ce6922e1226b5b07715c8a2c/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.1.0/52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7/android-integration-3.1.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/9f4df39d763a4e8771335a6f7b943637ce11431a/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/91e6af9f53dc706b0b98c321295cb767a31700b0/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-protocol-java/2.4.0/fe90d87c8feea970ea07d6186c6baecf9689f5ac/signal-protocol-java-2.4.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f8abf1da37ee7e6fffa284b2aeef3512498215ba/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/curve25519-java/0.3.0/9091eb56d696d0d0d70d00b84e6037dcd3d98b6/curve25519-java-0.3.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f9749a656cf415cfc5eb7c23318ff66260c6b52d/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/a10732c76bfacdbd633a7eb0f7968b1059a65dfa/protobuf-java-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.3.0/5416ed9a8b73b588eb51ef34330a80082271bc93/libphonenumber-8.3.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2f0fc538c88e13a59a1371a96f98140c9019c516/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/libjingle_peerconnection_java.jar] (filtered)
+Reading program jar [/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/5af42928b08cebb648e6160b35247a01fa9c2782/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f85e37f42e8b8c0af2fced0ac63fde6f6eeaa336/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/454b6b6fac32fcbfd97ca2c8813b40f16086e815/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/8d2125141d04fe168377b0e810065b92d08f2377/output/jars/classes.jar] (filtered)
+Reading program jar [/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/861d587dfdceb7fda86fdbd20882519f673b2ac9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/d0dabf3146a0dd356974dee312829b4a23fb67b0/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/ef8f59d8c0bb5cde869ee815a98486e01840a8ca/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/7b0ebe925ee7aedb5da2a084b4093f0893932df3/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/87885c9ec44b84e3b828fa772a3f2b63484134e1/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/25b4fedbe928bc601d17bb7bdf662b692c3d42be/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/d773aea307ac80e965eb72a845e8f989f2d52bb9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/base_java.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar] (filtered)
+Reading program jar [/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/01617562453c51afe8c51976e6ca11fe6613e3ae/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/a89f765169c77babe5f1c7c273a332a36b18ed32/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/160d1813f38447b0728329bb003db6a09a043f29/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f92141965ceacdb418de0734cd36591324849831/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/c299f3ec37b231bcb6f23b29b9b224fae6125fc6/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e3ce895fa2347209d8e3790bc10045aa1ed85ed2/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.51.0.0/f642963312ea0e615ad65f28adc5a5b3a2a0862/core-1.51.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e2d95adb000cfe56cf6661724b7c07e4fa25ddcf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4e10dc1ef9b5a9f782c9214f947c583ca96c42fb/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/446110567aa64fb89ea5fddbae0408164751e410/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/0b8ec4a0a34804c89ae23e827b5fdf9aff908aa9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1794745e7e74c81820aed1dad9c0e1f5a2012f9f/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1bf65b67fe7b22b31ceb90317b994ae3842e7088/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/fe54f0db85db1c87ac785e83c43ac8a843b5c82a/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.klinkerapps/logger/1.0.3/852cf12fb477b8ac64919a9bfab5c98e16dc0f62/logger-1.0.3.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e9bc2df1ec5c79d065e9a92803ba590ef2d0cb67/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/9680ccce61e87e65ea6abbf823cd5876398308bf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/3cda9065e28868889f0138f558f062f18896d6fb/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/b425fdb63a0a9691d439b76b37fa64aca5c89978/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.51.0.0/6755081df770180856ca48694b40cd34c2208128/prov-1.51.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2a8a4492876626f436b16fa17196028308d1e76c/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/ca151091d993bde68f4ad722b5904762002ce61d/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f04b016b91144ff2f5ee6da548864fc7b4d757ab/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1e034369b819c7a5c7b8c63d8d119c982492d2b1/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.5.6/a9630022e3084499ead03c594676d22c6f7fcd97/signal-service-java-2.5.6.jar] (filtered)
+Reading program jar [/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2fcb618937cc0503f24460b730e25ef5a24120aa/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/8d3449b97d5a85c884e15d356a3e71477fb23f11/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/01ee0526403b67e0b157711795a5694008b5a4c7/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar] (filtered)
+Reading program jar [/root/.android/build-cache/86d7c35bccb3a75371be385081aed41c81d272ad/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+Reading program jar [/bitrise/src/build/intermediates/transforms/mergeJavaRes/play/debug/jars/2/1f/main.jar] (filtered)
+Reading program directory [/bitrise/src/build/intermediates/transforms/mergeJavaRes/play/debug/folders/2/1f/main] (filtered)
+Reading program directory [/bitrise/src/build/intermediates/classes/play/debug] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar] (filtered)
+Reading library jar [/opt/android-sdk-linux/platforms/android-25/android.jar]
+Note: duplicate definition of library class [android.net.LinkProperties]
+Note: duplicate definition of library class [android.net.RouteInfo]
+Note: duplicate definition of library class [android.net.LinkAddress]
+Reading library jar [/opt/android-sdk-linux/platforms/android-25/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: there were 14 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'Object'
+      Maybe you meant the fully qualified name 'java.lang.Object'?
+Note: the configuration refers to the unknown class 'sun.misc.Unsafe'
+Note: the configuration refers to the unknown class 'me.leolin.shortcutbadger.impl.AsusHomeLauncher'
+Note: the configuration refers to the unknown class 'me.leolin.shortcutbadger.impl.SolidHomeBadger'
+Note: com.android.mms.service_alt.SystemPropertiesProxy: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.vp9.LibvpxVideoRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.opus.LibopusAudioRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer
+Note: com.google.android.exoplayer2.extractor.DefaultExtractorsFactory: can't find dynamically referenced class com.google.android.exoplayer2.ext.flac.FlacExtractor
+Note: com.google.android.exoplayer2.util.Util: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.gms.internal.zzapj: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.google.android.gms.maps.internal.zzai: can't find dynamically referenced class com.google.android.gms.maps.internal.CreatorImpl
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger: can't find dynamically referenced class android.app.MiuiNotification
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: org.thoughtcrime.securesms.crypto.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: org.thoughtcrime.securesms.crypto.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo accesses a declared field 'mTransitions' dynamically
+      Maybe this is program field 'com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo { int[] mTransitions; }'
+Note: com.google.android.gms.internal.zzapj accesses a declared field 'theUnsafe' dynamically
+Note: com.google.android.gms.internal.zzsu accesses a declared field 'MODULE_ID' dynamically
+      Maybe this is program field 'com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { java.lang.String MODULE_ID; }'
+Note: com.google.android.gms.internal.zzsu accesses a declared field 'MODULE_VERSION' dynamically
+      Maybe this is program field 'com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { int MODULE_VERSION; }'
+Note: com.klinker.android.send_message.Utils accesses a declared field 'mService' dynamically
+      Maybe this is program field 'android.net.NetworkPolicyManager { android.net.INetworkPolicyManager mService; }'
+Note: me.leolin.shortcutbadger.ShortcutBadger accesses a declared field 'extraNotification' dynamically
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger accesses a declared field 'messageCount' dynamically
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger accesses a declared field 'extraNotification' dynamically
+Note: org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout accesses a declared field 'mStableInsets' dynamically
+Note: org.thoughtcrime.securesms.util.MemoryFileUtil accesses a declared field 'descriptor' dynamically
+      Maybe this is program field 'com.google.protobuf.DescriptorProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.Descriptors$DescriptorPool$DescriptorIntPair { com.google.protobuf.Descriptors$GenericDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.ExtensionRegistry$DescriptorIntPair { com.google.protobuf.Descriptors$Descriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.ExtensionRegistry$ExtensionInfo { com.google.protobuf.Descriptors$FieldDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.GeneratedMessage$FieldAccessorTable { com.google.protobuf.Descriptors$Descriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.GeneratedMessageLite$GeneratedExtension { com.google.protobuf.GeneratedMessageLite$ExtensionDescriptor descriptor; }'
+      Maybe this is program field 'org.thoughtcrime.securesms.webrtc.WebRtcDataProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.fingerprint.FingerprintProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.protocol.SignalProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.state.StorageProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.push.ProvisioningProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.push.SignalServiceProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.websocket.WebSocketProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+Note: there were 4 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 16 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 10 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 5887
+  Final number of library classes:    2009
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/bitrise/src/build/outputs/mapping/play/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 12168
+  Final number of program classes:    8423
+Obfuscating...
+Printing mapping to [/bitrise/src/build/outputs/mapping/play/debug/mapping.txt]...
+Writing output...
+Preparing output jar [/bitrise/src/build/intermediates/transforms/proguard/play/debug/jars/3/1f/main.jar]
+  Copying resources from program jar [/root/.android/build-cache/5f0ec3f7baf710c5ce6922e1226b5b07715c8a2c/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.1.0/52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7/android-integration-3.1.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/9f4df39d763a4e8771335a6f7b943637ce11431a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/91e6af9f53dc706b0b98c321295cb767a31700b0/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-protocol-java/2.4.0/fe90d87c8feea970ea07d6186c6baecf9689f5ac/signal-protocol-java-2.4.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f8abf1da37ee7e6fffa284b2aeef3512498215ba/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/curve25519-java/0.3.0/9091eb56d696d0d0d70d00b84e6037dcd3d98b6/curve25519-java-0.3.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f9749a656cf415cfc5eb7c23318ff66260c6b52d/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/a10732c76bfacdbd633a7eb0f7968b1059a65dfa/protobuf-java-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.3.0/5416ed9a8b73b588eb51ef34330a80082271bc93/libphonenumber-8.3.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2f0fc538c88e13a59a1371a96f98140c9019c516/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/libjingle_peerconnection_java.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/5af42928b08cebb648e6160b35247a01fa9c2782/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f85e37f42e8b8c0af2fced0ac63fde6f6eeaa336/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/454b6b6fac32fcbfd97ca2c8813b40f16086e815/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/8d2125141d04fe168377b0e810065b92d08f2377/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/861d587dfdceb7fda86fdbd20882519f673b2ac9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/d0dabf3146a0dd356974dee312829b4a23fb67b0/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/ef8f59d8c0bb5cde869ee815a98486e01840a8ca/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/7b0ebe925ee7aedb5da2a084b4093f0893932df3/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/87885c9ec44b84e3b828fa772a3f2b63484134e1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/25b4fedbe928bc601d17bb7bdf662b692c3d42be/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/d773aea307ac80e965eb72a845e8f989f2d52bb9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/base_java.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/01617562453c51afe8c51976e6ca11fe6613e3ae/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/a89f765169c77babe5f1c7c273a332a36b18ed32/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/160d1813f38447b0728329bb003db6a09a043f29/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f92141965ceacdb418de0734cd36591324849831/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/c299f3ec37b231bcb6f23b29b9b224fae6125fc6/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e3ce895fa2347209d8e3790bc10045aa1ed85ed2/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.51.0.0/f642963312ea0e615ad65f28adc5a5b3a2a0862/core-1.51.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e2d95adb000cfe56cf6661724b7c07e4fa25ddcf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4e10dc1ef9b5a9f782c9214f947c583ca96c42fb/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/446110567aa64fb89ea5fddbae0408164751e410/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/0b8ec4a0a34804c89ae23e827b5fdf9aff908aa9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1794745e7e74c81820aed1dad9c0e1f5a2012f9f/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1bf65b67fe7b22b31ceb90317b994ae3842e7088/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/fe54f0db85db1c87ac785e83c43ac8a843b5c82a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.klinkerapps/logger/1.0.3/852cf12fb477b8ac64919a9bfab5c98e16dc0f62/logger-1.0.3.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e9bc2df1ec5c79d065e9a92803ba590ef2d0cb67/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/9680ccce61e87e65ea6abbf823cd5876398308bf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/3cda9065e28868889f0138f558f062f18896d6fb/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/b425fdb63a0a9691d439b76b37fa64aca5c89978/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.51.0.0/6755081df770180856ca48694b40cd34c2208128/prov-1.51.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2a8a4492876626f436b16fa17196028308d1e76c/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/ca151091d993bde68f4ad722b5904762002ce61d/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f04b016b91144ff2f5ee6da548864fc7b4d757ab/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1e034369b819c7a5c7b8c63d8d119c982492d2b1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.5.6/a9630022e3084499ead03c594676d22c6f7fcd97/signal-service-java-2.5.6.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2fcb618937cc0503f24460b730e25ef5a24120aa/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/8d3449b97d5a85c884e15d356a3e71477fb23f11/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/01ee0526403b67e0b157711795a5694008b5a4c7/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/86d7c35bccb3a75371be385081aed41c81d272ad/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+  Copying resources from program jar [/bitrise/src/build/intermediates/transforms/mergeJavaRes/play/debug/jars/2/1f/main.jar] (filtered)
+  Copying resources from program directory [/bitrise/src/build/intermediates/transforms/mergeJavaRes/play/debug/folders/2/1f/main] (filtered)
+  Copying resources from program directory [/bitrise/src/build/intermediates/classes/play/debug] (filtered)
+Printing classes to [/bitrise/src/build/outputs/mapping/play/debug/dump.txt]...
+:transformClassesWithMultidexlistForPlayDebug
+:transformClassesWithDexForPlayDebug
 
-FAILURE: Build failed with an exception.
+Running dex as a separate process.
 
-* What went wrong:
-A problem occurred configuring root project 'src'.
-> Could not download com.amulyakhare.textdrawable.aar (com.amulyakhare:com.amulyakhare.textdrawable:1.0.1)
-   > Could not get resource 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'.
-      > Could not GET 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'. Received status code 401 from server: Unauthorized
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1024 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 4608 MB (based on the dexOptions.javaMaxHeapSize = 4g).
+To do this set org.gradle.jvmargs=-Xmx4608M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
 
-* Try:
-Run with --info or --debug option to get more log output.
+:mergePlayDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForPlayDebug
+:transformNativeLibsWithStripDebugSymbolForPlayDebug
+:validateSigningPlayDebug
+:packagePlayDebug
+:assemblePlayDebug
+:checkWebsiteDebugManifest
+:prepareWebsiteDebugDependencies
+:compileWebsiteDebugAidl
+:compileWebsiteDebugRenderscript
+:generateWebsiteDebugBuildConfig
+:generateWebsiteDebugResValues
+:generateWebsiteDebugResources
+:mergeWebsiteDebugResources
+:processWebsiteDebugManifest
+:processWebsiteDebugResources
+:generateWebsiteDebugSources
+:incrementalWebsiteDebugJavaCompilationSafeguard
+:javaPreCompileWebsiteDebug
+:compileWebsiteDebugJavaWithJavac
+:compileWebsiteDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:compileWebsiteDebugNdk UP-TO-DATE
+:compileWebsiteDebugSources
+:mergeWebsiteDebugShaders
+:compileWebsiteDebugShaders
+:generateWebsiteDebugAssets
+:mergeWebsiteDebugAssets
+:processWebsiteDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForWebsiteDebug
+:transformClassesAndResourcesWithProguardForWebsiteDebug
+ProGuard, version 5.3.2
+Reading input...
+Reading program jar [/root/.android/build-cache/5f0ec3f7baf710c5ce6922e1226b5b07715c8a2c/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.1.0/52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7/android-integration-3.1.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/9f4df39d763a4e8771335a6f7b943637ce11431a/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/91e6af9f53dc706b0b98c321295cb767a31700b0/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-protocol-java/2.4.0/fe90d87c8feea970ea07d6186c6baecf9689f5ac/signal-protocol-java-2.4.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f8abf1da37ee7e6fffa284b2aeef3512498215ba/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/curve25519-java/0.3.0/9091eb56d696d0d0d70d00b84e6037dcd3d98b6/curve25519-java-0.3.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f9749a656cf415cfc5eb7c23318ff66260c6b52d/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/a10732c76bfacdbd633a7eb0f7968b1059a65dfa/protobuf-java-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.3.0/5416ed9a8b73b588eb51ef34330a80082271bc93/libphonenumber-8.3.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2f0fc538c88e13a59a1371a96f98140c9019c516/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/libjingle_peerconnection_java.jar] (filtered)
+Reading program jar [/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/5af42928b08cebb648e6160b35247a01fa9c2782/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f85e37f42e8b8c0af2fced0ac63fde6f6eeaa336/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/454b6b6fac32fcbfd97ca2c8813b40f16086e815/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/8d2125141d04fe168377b0e810065b92d08f2377/output/jars/classes.jar] (filtered)
+Reading program jar [/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/861d587dfdceb7fda86fdbd20882519f673b2ac9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/d0dabf3146a0dd356974dee312829b4a23fb67b0/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/ef8f59d8c0bb5cde869ee815a98486e01840a8ca/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/7b0ebe925ee7aedb5da2a084b4093f0893932df3/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/87885c9ec44b84e3b828fa772a3f2b63484134e1/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/25b4fedbe928bc601d17bb7bdf662b692c3d42be/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/d773aea307ac80e965eb72a845e8f989f2d52bb9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/base_java.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar] (filtered)
+Reading program jar [/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/01617562453c51afe8c51976e6ca11fe6613e3ae/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/a89f765169c77babe5f1c7c273a332a36b18ed32/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/160d1813f38447b0728329bb003db6a09a043f29/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f92141965ceacdb418de0734cd36591324849831/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/c299f3ec37b231bcb6f23b29b9b224fae6125fc6/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e3ce895fa2347209d8e3790bc10045aa1ed85ed2/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.51.0.0/f642963312ea0e615ad65f28adc5a5b3a2a0862/core-1.51.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e2d95adb000cfe56cf6661724b7c07e4fa25ddcf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/4e10dc1ef9b5a9f782c9214f947c583ca96c42fb/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/446110567aa64fb89ea5fddbae0408164751e410/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/0b8ec4a0a34804c89ae23e827b5fdf9aff908aa9/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1794745e7e74c81820aed1dad9c0e1f5a2012f9f/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1bf65b67fe7b22b31ceb90317b994ae3842e7088/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/fe54f0db85db1c87ac785e83c43ac8a843b5c82a/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.klinkerapps/logger/1.0.3/852cf12fb477b8ac64919a9bfab5c98e16dc0f62/logger-1.0.3.jar] (filtered)
+Reading program jar [/root/.android/build-cache/e9bc2df1ec5c79d065e9a92803ba590ef2d0cb67/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/9680ccce61e87e65ea6abbf823cd5876398308bf/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/3cda9065e28868889f0138f558f062f18896d6fb/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/b425fdb63a0a9691d439b76b37fa64aca5c89978/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.51.0.0/6755081df770180856ca48694b40cd34c2208128/prov-1.51.0.0.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2a8a4492876626f436b16fa17196028308d1e76c/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/ca151091d993bde68f4ad722b5904762002ce61d/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/f04b016b91144ff2f5ee6da548864fc7b4d757ab/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/1e034369b819c7a5c7b8c63d8d119c982492d2b1/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.5.6/a9630022e3084499ead03c594676d22c6f7fcd97/signal-service-java-2.5.6.jar] (filtered)
+Reading program jar [/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/2fcb618937cc0503f24460b730e25ef5a24120aa/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/8d3449b97d5a85c884e15d356a3e71477fb23f11/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.android/build-cache/01ee0526403b67e0b157711795a5694008b5a4c7/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar] (filtered)
+Reading program jar [/root/.android/build-cache/86d7c35bccb3a75371be385081aed41c81d272ad/output/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+Reading program jar [/bitrise/src/build/intermediates/transforms/mergeJavaRes/website/debug/jars/2/1f/main.jar] (filtered)
+Reading program directory [/bitrise/src/build/intermediates/transforms/mergeJavaRes/website/debug/folders/2/1f/main] (filtered)
+Reading program directory [/bitrise/src/build/intermediates/classes/website/debug] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar] (filtered)
+Reading library jar [/root/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar] (filtered)
+Reading library jar [/opt/android-sdk-linux/platforms/android-25/android.jar]
+Note: duplicate definition of library class [android.net.LinkProperties]
+Note: duplicate definition of library class [android.net.RouteInfo]
+Note: duplicate definition of library class [android.net.LinkAddress]
+Reading library jar [/opt/android-sdk-linux/platforms/android-25/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: there were 14 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'Object'
+      Maybe you meant the fully qualified name 'java.lang.Object'?
+Note: the configuration refers to the unknown class 'sun.misc.Unsafe'
+Note: the configuration refers to the unknown class 'me.leolin.shortcutbadger.impl.AsusHomeLauncher'
+Note: the configuration refers to the unknown class 'me.leolin.shortcutbadger.impl.SolidHomeBadger'
+Note: com.android.mms.service_alt.SystemPropertiesProxy: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.vp9.LibvpxVideoRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.opus.LibopusAudioRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer
+Note: com.google.android.exoplayer2.SimpleExoPlayer: can't find dynamically referenced class com.google.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer
+Note: com.google.android.exoplayer2.extractor.DefaultExtractorsFactory: can't find dynamically referenced class com.google.android.exoplayer2.ext.flac.FlacExtractor
+Note: com.google.android.exoplayer2.util.Util: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.gms.internal.zzapj: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.google.android.gms.maps.internal.zzai: can't find dynamically referenced class com.google.android.gms.maps.internal.CreatorImpl
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger: can't find dynamically referenced class android.app.MiuiNotification
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: org.thoughtcrime.securesms.crypto.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: org.thoughtcrime.securesms.crypto.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo accesses a declared field 'mTransitions' dynamically
+      Maybe this is program field 'com.doomonafireball.betterpickers.timezonepicker.TimeZoneInfo { int[] mTransitions; }'
+Note: com.google.android.gms.internal.zzapj accesses a declared field 'theUnsafe' dynamically
+Note: com.google.android.gms.internal.zzsu accesses a declared field 'MODULE_ID' dynamically
+      Maybe this is program field 'com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { java.lang.String MODULE_ID; }'
+Note: com.google.android.gms.internal.zzsu accesses a declared field 'MODULE_VERSION' dynamically
+      Maybe this is program field 'com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor { int MODULE_VERSION; }'
+Note: com.klinker.android.send_message.Utils accesses a declared field 'mService' dynamically
+      Maybe this is program field 'android.net.NetworkPolicyManager { android.net.INetworkPolicyManager mService; }'
+Note: me.leolin.shortcutbadger.ShortcutBadger accesses a declared field 'extraNotification' dynamically
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger accesses a declared field 'messageCount' dynamically
+Note: me.leolin.shortcutbadger.impl.XiaomiHomeBadger accesses a declared field 'extraNotification' dynamically
+Note: org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout accesses a declared field 'mStableInsets' dynamically
+Note: org.thoughtcrime.securesms.util.MemoryFileUtil accesses a declared field 'descriptor' dynamically
+      Maybe this is program field 'com.google.protobuf.DescriptorProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.Descriptors$DescriptorPool$DescriptorIntPair { com.google.protobuf.Descriptors$GenericDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.ExtensionRegistry$DescriptorIntPair { com.google.protobuf.Descriptors$Descriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.ExtensionRegistry$ExtensionInfo { com.google.protobuf.Descriptors$FieldDescriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.GeneratedMessage$FieldAccessorTable { com.google.protobuf.Descriptors$Descriptor descriptor; }'
+      Maybe this is program field 'com.google.protobuf.GeneratedMessageLite$GeneratedExtension { com.google.protobuf.GeneratedMessageLite$ExtensionDescriptor descriptor; }'
+      Maybe this is program field 'org.thoughtcrime.securesms.webrtc.WebRtcDataProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.fingerprint.FingerprintProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.protocol.SignalProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.libsignal.state.StorageProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.push.ProvisioningProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.push.SignalServiceProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+      Maybe this is program field 'org.whispersystems.signalservice.internal.websocket.WebSocketProtos { com.google.protobuf.Descriptors$FileDescriptor descriptor; }'
+Note: there were 4 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 16 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 10 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 5887
+  Final number of library classes:    2009
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/bitrise/src/build/outputs/mapping/website/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 12168
+  Final number of program classes:    8423
+Obfuscating...
+Printing mapping to [/bitrise/src/build/outputs/mapping/website/debug/mapping.txt]...
+Writing output...
+Preparing output jar [/bitrise/src/build/intermediates/transforms/proguard/website/debug/jars/3/1f/main.jar]
+  Copying resources from program jar [/root/.android/build-cache/5f0ec3f7baf710c5ce6922e1226b5b07715c8a2c/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.1.0/52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7/android-integration-3.1.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/9f4df39d763a4e8771335a6f7b943637ce11431a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/91e6af9f53dc706b0b98c321295cb767a31700b0/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-protocol-java/2.4.0/fe90d87c8feea970ea07d6186c6baecf9689f5ac/signal-protocol-java-2.4.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f8abf1da37ee7e6fffa284b2aeef3512498215ba/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/curve25519-java/0.3.0/9091eb56d696d0d0d70d00b84e6037dcd3d98b6/curve25519-java-0.3.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f9749a656cf415cfc5eb7c23318ff66260c6b52d/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.5.0/a10732c76bfacdbd633a7eb0f7968b1059a65dfa/protobuf-java-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.3.0/5416ed9a8b73b588eb51ef34330a80082271bc93/libphonenumber-8.3.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2f0fc538c88e13a59a1371a96f98140c9019c516/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/libjingle_peerconnection_java.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/5af42928b08cebb648e6160b35247a01fa9c2782/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f85e37f42e8b8c0af2fced0ac63fde6f6eeaa336/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/454b6b6fac32fcbfd97ca2c8813b40f16086e815/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/8d2125141d04fe168377b0e810065b92d08f2377/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/861d587dfdceb7fda86fdbd20882519f673b2ac9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/d0dabf3146a0dd356974dee312829b4a23fb67b0/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/ef8f59d8c0bb5cde869ee815a98486e01840a8ca/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/7b0ebe925ee7aedb5da2a084b4093f0893932df3/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/87885c9ec44b84e3b828fa772a3f2b63484134e1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/25b4fedbe928bc601d17bb7bdf662b692c3d42be/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/d773aea307ac80e965eb72a845e8f989f2d52bb9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/libs/base_java.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5/82edcaec6c7b4599eaeaaf11167ceea41db42f33/httpclient-android-4.3.5.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/01617562453c51afe8c51976e6ca11fe6613e3ae/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/a89f765169c77babe5f1c7c273a332a36b18ed32/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/160d1813f38447b0728329bb003db6a09a043f29/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f92141965ceacdb418de0734cd36591324849831/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/c299f3ec37b231bcb6f23b29b9b224fae6125fc6/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e3ce895fa2347209d8e3790bc10045aa1ed85ed2/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.51.0.0/f642963312ea0e615ad65f28adc5a5b3a2a0862/core-1.51.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e2d95adb000cfe56cf6661724b7c07e4fa25ddcf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4b5628e365cbcc9ba4159cfe73cb3f04e355b3cf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/4e10dc1ef9b5a9f782c9214f947c583ca96c42fb/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/446110567aa64fb89ea5fddbae0408164751e410/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/0b8ec4a0a34804c89ae23e827b5fdf9aff908aa9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1794745e7e74c81820aed1dad9c0e1f5a2012f9f/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1bf65b67fe7b22b31ceb90317b994ae3842e7088/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/fe54f0db85db1c87ac785e83c43ac8a843b5c82a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.klinkerapps/logger/1.0.3/852cf12fb477b8ac64919a9bfab5c98e16dc0f62/logger-1.0.3.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/e9bc2df1ec5c79d065e9a92803ba590ef2d0cb67/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/9680ccce61e87e65ea6abbf823cd5876398308bf/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/3cda9065e28868889f0138f558f062f18896d6fb/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/b425fdb63a0a9691d439b76b37fa64aca5c89978/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.51.0.0/6755081df770180856ca48694b40cd34c2208128/prov-1.51.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2a8a4492876626f436b16fa17196028308d1e76c/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/ca151091d993bde68f4ad722b5904762002ce61d/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/f04b016b91144ff2f5ee6da548864fc7b4d757ab/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/1e034369b819c7a5c7b8c63d8d119c982492d2b1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.5.6/a9630022e3084499ead03c594676d22c6f7fcd97/signal-service-java-2.5.6.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/2fcb618937cc0503f24460b730e25ef5a24120aa/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/8d3449b97d5a85c884e15d356a3e71477fb23f11/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/01ee0526403b67e0b157711795a5694008b5a4c7/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar] (filtered)
+  Copying resources from program jar [/root/.android/build-cache/86d7c35bccb3a75371be385081aed41c81d272ad/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+  Copying resources from program jar [/bitrise/src/build/intermediates/transforms/mergeJavaRes/website/debug/jars/2/1f/main.jar] (filtered)
+  Copying resources from program directory [/bitrise/src/build/intermediates/transforms/mergeJavaRes/website/debug/folders/2/1f/main] (filtered)
+  Copying resources from program directory [/bitrise/src/build/intermediates/classes/website/debug] (filtered)
+Printing classes to [/bitrise/src/build/outputs/mapping/website/debug/dump.txt]...
+:transformClassesWithMultidexlistForWebsiteDebug
+:transformClassesWithDexForWebsiteDebug
+:mergeWebsiteDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForWebsiteDebug
+:transformNativeLibsWithStripDebugSymbolForWebsiteDebug
+:validateSigningWebsiteDebug
+:packageWebsiteDebug
+:assembleWebsiteDebug
+:assembleWebsiteDescriptor
+:assembleDebug
 
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:38)
-	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:161)
-	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:158)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:158)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-Caused by: org.gradle.internal.resolve.ArtifactResolveException: Could not download com.amulyakhare.textdrawable.aar (com.amulyakhare:com.amulyakhare.textdrawable:1.0.1)
-	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveArtifact(ExternalResourceResolver.java:274)
-	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:484)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$5.run(CacheLockReleasingModuleComponentsRepository.java:105)
-	at org.gradle.internal.Factories$1.create(Factories.java:25)
-	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:247)
-	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:318)
-	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:137)
-	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:183)
-	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:48)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveArtifact(CacheLockReleasingModuleComponentsRepository.java:103)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:358)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:64)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:106)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:121)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:68)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:103)
-	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactResolver$3.run(CacheLockingArtifactResolver.java:61)
-	at org.gradle.internal.Factories$1.create(Factories.java:25)
-	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:187)
-	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:170)
-	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:129)
-	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:191)
-	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:56)
-	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactResolver.resolveArtifact(CacheLockingArtifactResolver.java:59)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:56)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:144)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:131)
-	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:118)
-	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:784)
-	at com.android.build.gradle.internal.DependencyManager.resolveConfiguration(DependencyManager.java:378)
-	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:263)
-	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:166)
-	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:375)
-	at com.android.build.gradle.internal.VariantManager.lambda$createVariantData$3(VariantManager.java:607)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:603)
-	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:793)
-	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:487)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:263)
-	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$6(BasePlugin.java:601)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:596)
-	at com.android.build.gradle.BasePlugin.lambda$null$4(BasePlugin.java:526)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:522)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
-	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy15.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
-	... 56 more
-Caused by: org.gradle.api.resources.ResourceException: Could not get resource 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'.
-	at org.gradle.internal.resource.ResourceExceptions.failure(ResourceExceptions.java:69)
-	at org.gradle.internal.resource.ResourceExceptions.getFailed(ResourceExceptions.java:52)
-	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:106)
-	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.resolveArtifact(DefaultExternalResourceArtifactResolver.java:67)
-	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.download(ExternalResourceResolver.java:286)
-	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveArtifact(ExternalResourceResolver.java:272)
-	... 109 more
-Caused by: org.gradle.api.UncheckedIOException: Could not GET 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'. Received status code 401 from server: Unauthorized
-	at org.gradle.internal.resource.transport.http.HttpClientHelper.processResponse(HttpClientHelper.java:123)
-	at org.gradle.internal.resource.transport.http.HttpClientHelper.performGet(HttpClientHelper.java:70)
-	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:43)
-	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:29)
-	at org.gradle.internal.resource.transfer.DefaultExternalResourceConnector.openResource(DefaultExternalResourceConnector.java:56)
-	at org.gradle.internal.resource.transfer.ProgressLoggingExternalResourceAccessor.openResource(ProgressLoggingExternalResourceAccessor.java:36)
-	at org.gradle.internal.resource.transport.DefaultExternalResourceRepository.getResource(DefaultExternalResourceRepository.java:63)
-	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.getResource(DefaultCacheAwareExternalResourceAccessor.java:76)
-	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:97)
-	... 112 more
+BUILD SUCCESSFUL
 
-
-BUILD FAILED
-
-Total time: 36.118 secs
-13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
-13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 1 (avg: 0.008 secs, total: 0.008 secs)
-13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
-13:45:20.745 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/root/.gradle/caches/3.3/plugin-resolution) was closed 0 times.
-13:45:20.832 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/root/.gradle/caches/3.3/generated-gradle-jars) was closed 0 times.
-13:45:20.832 [DEBUG] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopping 0 worker daemon(s).
-13:45:20.833 [INFO] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopped 0 worker daemon(s).
-13:45:20.833 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/root/.gradle/caches/modules-2)
-13:45:20.833 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin)
-13:45:20.833 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin)
-13:45:20.834 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-artifacts.bin)
-13:45:20.834 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-url.bin)
-13:45:20.834 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/root/.gradle/caches/modules-2).
-13:45:20.835 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
-13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@4c0a7e4d with state Busy
-13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268]
-13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
-13:45:20.840 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
-13:45:20.840 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
-13:45:20.841 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
-13:45:20.841 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
-13:45:20.841 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: A problem occurred configuring root project 'src'.]
-13:45:20.842 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: dispatching class org.gradle.launcher.daemon.protocol.Failure
-13:45:20.842 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
-13:45:20.878 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}
-13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Finished
-13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@4d2fa7a
-13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@4d2fa7a
-13:45:20.924 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
-13:45:20.925 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
-13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received null
-13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received end-of-input from client.
-13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+Total time: 5 mins 14.766 secs
+13:54:38.639 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for task history cache (/bitrise/src/.gradle/3.3/taskArtifacts)
+13:54:38.639 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (/bitrise/src/.gradle/3.3/taskArtifacts/taskArtifacts.bin)
+13:54:38.640 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/bitrise/src/.gradle/3.3/taskArtifacts/fileHashes.bin)
+13:54:38.640 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (/bitrise/src/.gradle/3.3/taskArtifacts/fileSnapshots.bin)
+13:54:38.641 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/bitrise/src/.gradle/3.3/taskArtifacts).
+13:54:38.641 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for class analysis cache (/root/.gradle/caches/3.3/classAnalysis)
+13:54:38.642 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache classAnalysis.bin (/root/.gradle/caches/3.3/classAnalysis/classAnalysis.bin)
+13:54:38.642 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on class analysis cache (/root/.gradle/caches/3.3/classAnalysis).
+13:54:38.642 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jar snapshots cache (/root/.gradle/caches/3.3/jarSnapshots)
+13:54:38.642 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache jarSnapshots.bin (/root/.gradle/caches/3.3/jarSnapshots/jarSnapshots.bin)
+13:54:38.642 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jar snapshots cache (/root/.gradle/caches/3.3/jarSnapshots).
+13:54:38.643 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:54:38.643 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 20 (avg: 0.001 secs, total: 0.029 secs)
+13:54:38.643 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+13:54:38.644 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/root/.gradle/caches/3.3/plugin-resolution) was closed 0 times.
+13:54:38.757 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/root/.gradle/caches/3.3/generated-gradle-jars) was closed 0 times.
+13:54:38.758 [DEBUG] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopping 0 worker daemon(s).
+13:54:38.758 [INFO] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopped 0 worker daemon(s).
+13:54:38.758 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/root/.gradle/caches/modules-2)
+13:54:38.768 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin)
+13:54:38.768 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin)
+13:54:38.768 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-artifacts.bin)
+13:54:38.768 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-url.bin)
+13:54:38.769 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/root/.gradle/caches/modules-2).
+13:54:38.769 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:54:38.779 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:44084 to /0:0:0:0:0:0:0:1:35836]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@6a03093c with state Busy
+13:54:38.779 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:44084 to /0:0:0:0:0:0:0:1:35836]
+13:54:38.779 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+13:54:38.779 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:54:38.779 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [923d6e86-3bf4-4899-b029-4db4faf365f7 port:44084, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:54:38.780 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:54:38.780 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:38.780 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:54:38.781 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=null]
+13:54:38.781 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:54:38.781 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:54:38.783 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=f37fd4a9-c254-4532-9b04-d4b0787ecb45.1, currentDir=/bitrise/src}
+13:54:38.788 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Finished
+13:54:38.788 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@32350e18
+13:54:38.789 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:54:38.789 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received null
+13:54:38.789 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received end-of-input from client.
+13:54:38.790 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:54:38.790 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+13:54:38.791 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+13:54:41.106 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+13:54:41.106 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:54:41.106 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:41.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:54:41.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:54:41.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:41.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:54:51.107 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+13:54:51.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:54:51.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:54:51.108 [INFO] [org.gradle.launcher.daemon.server.DaemonIdleTimeoutExpirationStrategy] Idle timeout: daemon has been idle for 12328 milliseconds. Expiring.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:54:51.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
