@@ -1,0 +1,431 @@
+13:44:53.023 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxPermSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx1024m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant]
+13:44:53.107 [INFO] [org.gradle.launcher.daemon.server.health.gc.GarbageCollectionMonitor] Unable to determine a garbage collection monitoring strategy for JVMStrategy{Oracle Corporation version 1.8.0_131}
+13:44:53.226 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:44:53.256 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface eth0
+13:44:53.257 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+13:44:53.258 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+13:44:53.260 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:42:acff:fe11:2%eth0
+13:44:53.262 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.17.0.2
+13:44:53.264 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface eth0
+13:44:53.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
+13:44:53.265 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+13:44:53.266 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+13:44:53.266 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
+13:44:53.273 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+13:44:53.277 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]].
+13:44:53.286 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Tue May 23 13:44:53 UTC 2017, with address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:53.287 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:53.288 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:44:53.289 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]], context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:44:53.300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:44:53.303 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:53.431 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:44:53.432 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+13:44:53.453 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /0:0:0:0:0:0:0:1:60268 to /0:0:0:0:0:0:0:1:42282.
+13:44:53.465 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+13:44:54.044 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Build
+13:44:54.053 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}
+13:44:54.060 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}.
+13:44:54.060 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src} with connection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268.
+13:44:54.069 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268] after 0.0 minutes of idle
+13:44:54.069 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:54.070 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:44:54.070 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:44:54.071 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:44:54.072 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:44:54.073 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+13:44:54.106 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}. Dispatching build started information...
+13:44:54.107 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:44:54.111 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+13:44:54.124 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {GIT_CLONE_COMMIT_COMMITER_EMAIL=moxie@thoughtcrime.org, PATH=/root/.bitrise/tools:/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/tools/bin:/opt/android-sdk-linux/platform-tools:/opt/android-ndk, GIT_CLONE_COMMIT_AUTHOR_NAME=Moxie Marlinspike, PR=false, BITRISE_DEPLOY_DIR=/bitrise/deploy, mapping_file_exclude_filter=, ANDROID_HOME=/opt/android-sdk-linux, GIT_CLONE_COMMIT_MESSAGE_SUBJECT=Bump version to 4.6.0, BITRISE_PROVISION_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/BuildAnything.mobileprovision, TOOL_VER_DOCKER_COMPOSE=1.11.2, LD_LIBRARY_PATH=:/opt/android-sdk-linux/tools/lib64, BITRISE_IO=true, ANDROID_NDK_VERSION=r14b, BITRISE_STEP_FORMATTED_OUTPUT_FILE_PATH=/tmp/bitrise850679540/formatted_output.md, BITRISE_SOURCE_DIR=/bitrise/src, GIT_CLONE_COMMIT_MESSAGE_BODY=// FREEBIE
+, PWD=/bitrise/src, BITRISE_PREP_DIR=/bitrise/prep, BITRISE_CACHE_API_URL=https://bitrise-build-cache.herokuapp.com/cache/129832f91874c329/1sMyBBoxEyZihrTMWxpAdA, LOGLEVEL=info, BITRISE_GIT_MESSAGE=test git based cache, GCLOUD_SDK_CONFIG=/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/config.json, LANGUAGE=en_US.UTF-8, BITRISE_BUILD_NUMBER=67, apk_file_exclude_filter=*-unaligned.apk, ANDROID_NDK_HOME=/opt/android-ndk, BITRISE_BUILD_TRIGGER_TIMESTAMP=1495546998, GIT_CLONE_COMMIT_AUTHOR_EMAIL=moxie@thoughtcrime.org, GOPATH=/go, OLDPWD=/bitrise/src, BITRISE_TRIGGERED_WORKFLOW_ID=custom-cache, GIT_CLONE_COMMIT_COMMITER_NAME=Moxie Marlinspike, BITRISE_TRIGGERED_WORKFLOW_TITLE=custom-cache, BITRISE_CACHE_DIR=/bitrise/cache, LC_ALL=en_US.UTF-8, BITRISE_BUILD_STATUS=0, SHLVL=0, gradlew_path=./gradlew, BITRISE_APP_URL=https://www.bitrise.io/app/f555a364cd3c8a65, QT_QPA_PLATFORM=offscreen, BITRISE_CERTIFICATE_URL=https://s3-us-west-2.amazonaws.com/concrete-core-production/cert-profiles/Certificates.p12, TOOL_VER_DOCKER=17.03.1, ENVMAN_ENVSTORE_PATH=/tmp/bitrise850679540/output_envstore.yml, TOOL_VER_RUBY=2.4.1, LANG=en_US.UTF-8, BITRISE_DOCKER_REV_NUMBER_ANDROID=v2017_05_10_1, BITRISE_BUILD_API_TOKEN=1sMyBBoxEyZihrTMWxpAdA, GIT_CLONE_COMMIT_HASH=15df691017a308cb5bdbef4de90d4657ceafaadd, BITRISE_GIT_BRANCH=master, mapping_file_include_filter=*/mapping.txt, apk_file_include_filter=*.apk, BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK=v2017_03_29_1, GIT_REPOSITORY_URL=https://github.com/WhisperSystems/Signal-Android.git, TOOL_VER_GO=1.8.1, BITRISE_DOCKER_REV_NUMBER_BASE=v2017_05_11_1, CI=true, BITRISE_APP_TITLE=cache-performance, BITRISE_BUILD_URL=https://www.bitrise.io/build/129832f91874c329, BITRISE_BUILD_SLUG=129832f91874c329, gradle_options=--stacktrace, HOSTNAME=fa4ce15e5aae, TOOL_VER_BITRISE_CLI=1.6.1, gradle_file=build.gradle, BITRISE_CERTIFICATE_PASSPHRASE=Concrete, STEPLIB_BUILD_STATUS=0, gradle_task=assembleDebug, HOME=/root, BITRISE_APP_SLUG=f555a364cd3c8a65, BITRISE_BRIDGE_WORKDIR=/bitrise/src}
+13:44:54.139 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+13:44:54.140 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:44:54.151 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:44:54.157 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 1310). The daemon log file: /root/.gradle/daemon/3.3/daemon-1310.out.log
+13:44:54.166 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 954.7 MB]
+13:44:54.174 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:44:54.175 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=5cea0a14-f197-46b8-9788-3b94e6971842,javaHome=/usr/lib/jvm/java-8-openjdk-amd64,daemonRegistryDir=/root/.gradle/daemon,pid=1310,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+13:44:54.189 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:44:54.190 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@698fcc0b
+13:44:54.194 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:44:54.194 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+13:44:54.665 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for plugin-use-metadata, path /root/.gradle/caches/3.3/plugin-resolution/plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@6cc52e99
+13:44:54.673 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for client-status, path /root/.gradle/caches/3.3/plugin-resolution/client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@6cc52e99
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
+	at org.gradle.api.Task$leftShift.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.whispersystems.witness.WitnessPlugin.apply(WitnessPlugin.groovy:50)
+	at org.whispersystems.witness.WitnessPlugin.apply(WitnessPlugin.groovy)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginApplicator.applyImperative(ImperativeOnlyPluginApplicator.java:35)
+	at org.gradle.api.internal.plugins.RuleBasedPluginApplicator.applyImperative(RuleBasedPluginApplicator.java:43)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:139)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:112)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at build_8ud97pjchukod1oev3d36umob.run(/bitrise/src/build.gradle:17)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:181)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:38)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:158)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:158)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+signing.properties not found
+File /root/.android/repositories.cfg could not be loaded.
+Checking the license for package Android SDK Build-Tools 25 in /opt/android-sdk-linux/licenses
+License for package Android SDK Build-Tools 25 accepted.
+Preparing "Install Android SDK Build-Tools 25 (revision: 25.0.0)".
+"Install Android SDK Build-Tools 25 (revision: 25.0.0)" ready.
+Finishing "Install Android SDK Build-Tools 25 (revision: 25.0.0)"
+Installing Android SDK Build-Tools 25 in /opt/android-sdk-linux/build-tools/25.0.0
+"Install Android SDK Build-Tools 25 (revision: 25.0.0)" complete.
+"Install Android SDK Build-Tools 25 (revision: 25.0.0)" finished.
+Download https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+Download https://repo1.maven.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.3.0/libphonenumber-8.3.0.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.0/jackson-core-2.5.0.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.0/jackson-databind-2.5.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/okio/okio/1.11.0/okio-1.11.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar
+Download https://repo1.maven.org/maven2/org/whispersystems/signal-service-java/2.5.6/signal-service-java-2.5.6.jar
+Download https://repo1.maven.org/maven2/org/whispersystems/curve25519-java/0.3.0/curve25519-java-0.3.0.jar
+Download https://repo1.maven.org/maven2/org/whispersystems/curve25519-android/0.3.0/curve25519-android-0.3.0.aar
+Download https://repo1.maven.org/maven2/org/whispersystems/signal-protocol-java/2.4.0/signal-protocol-java-2.4.0.jar
+Download https://repo1.maven.org/maven2/org/whispersystems/signal-protocol-android/2.4.0/signal-protocol-android-2.4.0.aar
+Download https://repo1.maven.org/maven2/com/nineoldandroids/library/2.4.0/library-2.4.0.jar
+Download https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+Download https://repo1.maven.org/maven2/com/madgag/spongycastle/core/1.51.0.0/core-1.51.0.0.jar
+Verifying com.android.support:appcompat-v7
+Verifying com.android.support:recyclerview-v7
+Verifying com.android.support:design
+Verifying com.android.support:support-v13
+Verifying com.android.support:cardview-v7
+Verifying com.android.support:support-v4-preferencefragment
+Verifying com.android.support:gridlayout-v7
+Verifying com.android.support:multidex
+Verifying com.google.android.gms:play-services-gcm
+Verifying com.google.android.gms:play-services-maps
+Verifying com.google.android.gms:play-services-places
+Verifying com.google.android.exoplayer:exoplayer
+Verifying org.whispersystems:jobmanager
+Verifying org.whispersystems:libpastelog
+Verifying org.whispersystems:signal-service-android
+Verifying org.whispersystems:webrtc-android
+Verifying me.leolin:ShortcutBadger
+Verifying se.emilsjolander:stickylistheaders
+Verifying com.jpardogo.materialtabstrip:library
+Verifying org.apache.httpcomponents:httpclient-android
+Verifying com.github.chrisbanes.photoview:library
+Verifying com.github.bumptech.glide:glide
+Verifying com.makeramen:roundedimageview
+Verifying com.pnikosis:materialish-progress
+Verifying org.greenrobot:eventbus
+Verifying pl.tajchert:waitingdots
+Verifying com.soundcloud.android:android-crop
+Verifying com.melnykov:floatingactionbutton
+Verifying com.google.zxing:android-integration
+Verifying com.squareup.dagger:dagger
+Verifying com.doomonafireball.betterpickers:library
+Verifying com.madgag.spongycastle:prov
+Verifying com.amulyakhare:com.amulyakhare.textdrawable
+Download https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar
+Verifying com.h6ah4i.android.compat:mulsellistprefcompat
+Download https://jcenter.bintray.com/com/h6ah4i/android/compat/mulsellistprefcompat/1.0.0/mulsellistprefcompat-1.0.0.aar
+Verifying com.google.zxing:core
+Download https://repo1.maven.org/maven2/com/google/zxing/core/3.2.1/core-3.2.1.jar
+Verifying com.davemorrissey.labs:subsampling-scale-image-view
+Download https://repo1.maven.org/maven2/com/davemorrissey/labs/subsampling-scale-image-view/3.6.0/subsampling-scale-image-view-3.6.0.aar
+Verifying cn.carbswang.android:NumberPickerView
+Download https://jcenter.bintray.com/cn/carbswang/android/NumberPickerView/1.0.9/NumberPickerView-1.0.9.aar
+Verifying com.tomergoldst.android:tooltips
+Download https://jcenter.bintray.com/com/tomergoldst/android/tooltips/1.0.6/tooltips-1.0.6.aar
+Verifying com.klinkerapps:android-smsmms
+Download https://repo1.maven.org/maven2/com/klinkerapps/android-smsmms/4.0.1/android-smsmms-4.0.1.aar
+Verifying com.android.support:support-v4
+Verifying com.android.support:support-vector-drawable
+Verifying com.android.support:animated-vector-drawable
+Verifying com.android.support:support-compat
+Verifying com.android.support:support-core-ui
+Verifying com.android.support:transition
+Verifying com.google.android.gms:play-services-base
+Verifying com.google.android.gms:play-services-basement
+Verifying com.google.android.gms:play-services-iid
+Verifying org.whispersystems:signal-service-java
+Verifying org.whispersystems:signal-protocol-android
+Verifying com.nineoldandroids:library
+Verifying javax.inject:javax.inject
+Verifying com.madgag.spongycastle:core
+Verifying com.klinkerapps:logger
+Download https://repo1.maven.org/maven2/com/klinkerapps/logger/1.0.3/logger-1.0.3.jar
+Verifying com.google.android.gms:play-services-tasks
+Verifying com.google.protobuf:protobuf-java
+Verifying com.googlecode.libphonenumber:libphonenumber
+Verifying com.fasterxml.jackson.core:jackson-databind
+Verifying com.squareup.okhttp3:okhttp
+Verifying org.whispersystems:curve25519-android
+Verifying org.whispersystems:signal-protocol-java
+Verifying com.fasterxml.jackson.core:jackson-annotations
+Verifying com.fasterxml.jackson.core:jackson-core
+Verifying com.squareup.okio:okio
+Verifying org.whispersystems:curve25519-java
+Verifying com.android.support:support-annotations
+Verifying com.android.support:support-media-compat
+Verifying com.android.support:support-core-utils
+Verifying com.android.support:support-fragment
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'src'.
+> Could not download com.amulyakhare.textdrawable.aar (com.amulyakhare:com.amulyakhare.textdrawable:1.0.1)
+   > Could not get resource 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'.
+      > Could not GET 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'. Received status code 401 from server: Unauthorized
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:38)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:158)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:158)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+Caused by: org.gradle.internal.resolve.ArtifactResolveException: Could not download com.amulyakhare.textdrawable.aar (com.amulyakhare:com.amulyakhare.textdrawable:1.0.1)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveArtifact(ExternalResourceResolver.java:274)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:484)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$5.run(CacheLockReleasingModuleComponentsRepository.java:105)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:247)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:318)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:137)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:183)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:48)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveArtifact(CacheLockReleasingModuleComponentsRepository.java:103)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:358)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:106)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:68)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:103)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactResolver$3.run(CacheLockingArtifactResolver.java:61)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:187)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:170)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:129)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:191)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactResolver.resolveArtifact(CacheLockingArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:144)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:131)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:118)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:784)
+	at com.android.build.gradle.internal.DependencyManager.resolveConfiguration(DependencyManager.java:378)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:263)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:166)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:375)
+	at com.android.build.gradle.internal.VariantManager.lambda$createVariantData$3(VariantManager.java:607)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:603)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:793)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:487)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:263)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$6(BasePlugin.java:601)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:596)
+	at com.android.build.gradle.BasePlugin.lambda$null$4(BasePlugin.java:526)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$5(BasePlugin.java:522)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy15.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	... 56 more
+Caused by: org.gradle.api.resources.ResourceException: Could not get resource 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'.
+	at org.gradle.internal.resource.ResourceExceptions.failure(ResourceExceptions.java:69)
+	at org.gradle.internal.resource.ResourceExceptions.getFailed(ResourceExceptions.java:52)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:106)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.resolveArtifact(DefaultExternalResourceArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.download(ExternalResourceResolver.java:286)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveArtifact(ExternalResourceResolver.java:272)
+	... 109 more
+Caused by: org.gradle.api.UncheckedIOException: Could not GET 'https://dl.bintray.com/amulyakhare/maven/com/amulyakhare/com.amulyakhare.textdrawable/1.0.1/com.amulyakhare.textdrawable-1.0.1.aar'. Received status code 401 from server: Unauthorized
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.processResponse(HttpClientHelper.java:123)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performGet(HttpClientHelper.java:70)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:43)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:29)
+	at org.gradle.internal.resource.transfer.DefaultExternalResourceConnector.openResource(DefaultExternalResourceConnector.java:56)
+	at org.gradle.internal.resource.transfer.ProgressLoggingExternalResourceAccessor.openResource(ProgressLoggingExternalResourceAccessor.java:36)
+	at org.gradle.internal.resource.transport.DefaultExternalResourceRepository.getResource(DefaultExternalResourceRepository.java:63)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.getResource(DefaultCacheAwareExternalResourceAccessor.java:76)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:97)
+	... 112 more
+
+
+BUILD FAILED
+
+Total time: 36.118 secs
+13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 1 (avg: 0.008 secs, total: 0.008 secs)
+13:45:20.744 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+13:45:20.745 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (/root/.gradle/caches/3.3/plugin-resolution) was closed 0 times.
+13:45:20.832 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (/root/.gradle/caches/3.3/generated-gradle-jars) was closed 0 times.
+13:45:20.832 [DEBUG] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopping 0 worker daemon(s).
+13:45:20.833 [INFO] [org.gradle.process.internal.daemon.WorkerDaemonManager] Stopped 0 worker daemon(s).
+13:45:20.833 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/root/.gradle/caches/modules-2)
+13:45:20.833 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-repository.bin)
+13:45:20.833 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-metadata.bin)
+13:45:20.834 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (/root/.gradle/caches/modules-2/metadata-2.23/module-artifacts.bin)
+13:45:20.834 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-url.bin (/root/.gradle/caches/modules-2/metadata-2.23/artifact-at-url.bin)
+13:45:20.834 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/root/.gradle/caches/modules-2).
+13:45:20.835 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@4c0a7e4d with state Busy
+13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}, connection = DefaultDaemonConnection: socket connection from /0:0:0:0:0:0:0:1:42282 to /0:0:0:0:0:0:0:1:60268]
+13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+13:45:20.840 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:45:20.840 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [46a15daf-aa44-41f4-ac41-e44599d235d9 port:42282, addresses:[/0:0:0:0:0:0:0:1%lo, /127.0.0.1]]
+13:45:20.840 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:45:20.841 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:45:20.841 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:45:20.841 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: A problem occurred configuring root project 'src'.]
+13:45:20.842 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: dispatching class org.gradle.launcher.daemon.protocol.Failure
+13:45:20.842 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+13:45:20.878 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=b8729250-d78b-497c-a156-5ec69b6dfe18.1, currentDir=/bitrise/src}
+13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received class org.gradle.launcher.daemon.protocol.Finished
+13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@4d2fa7a
+13:45:20.923 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@4d2fa7a
+13:45:20.924 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
+13:45:20.925 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 12: received null
+13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 12: Received end-of-input from client.
+13:45:20.925 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 11: stopping connection
