@@ -5,23 +5,23 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_rewind.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_play.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_play.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_play.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_pause.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_previous.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_fastforward.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/design_ic_visibility.xml",
@@ -29,6 +29,6 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-anydpi-v21/exo_controls_next.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-anydpi-v21/exo_controls_next.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-anydpi-v21/exo_controls_next.xml"
     }
 ]

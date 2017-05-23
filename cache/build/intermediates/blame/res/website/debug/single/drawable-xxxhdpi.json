@@ -120,12 +120,12 @@
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_share_black_18dp.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png",
-        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_nature_activated_dark.png",
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_nature_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_play_circle_fill_white_48dp.png",

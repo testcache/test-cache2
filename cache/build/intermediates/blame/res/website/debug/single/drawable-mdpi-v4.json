@@ -5,11 +5,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_fastforward.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_fastforward.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_rewind.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_rewind.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
@@ -17,7 +17,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/crop__ic_cancel.png",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable-mdpi-v4/crop__ic_cancel.png"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable-mdpi-v4/crop__ic_cancel.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
@@ -29,7 +29,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/crop__divider.9.png",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable-mdpi-v4/crop__divider.9.png"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable-mdpi-v4/crop__divider.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
@@ -53,7 +53,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/ic_alert.png",
-        "source": "/root/.android/build-cache/70325ba4077f70edfcafd850e451f4d976c88389/output/res/drawable-mdpi-v4/ic_alert.png"
+        "source": "/root/.android/build-cache/137aba6639e0381302653db3721ce3b27ba9b938/output/res/drawable-mdpi-v4/ic_alert.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -93,7 +93,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_previous.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_previous.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/places_ic_clear.png",
@@ -197,11 +197,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_pause.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_pause.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_play.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_play.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/crop__ic_done.png",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable-mdpi-v4/crop__ic_done.png"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable-mdpi-v4/crop__ic_done.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
@@ -293,11 +293,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/fab_shadow_mini.png",
-        "source": "/root/.android/build-cache/962ad0933d540c41eb88f09eb70ca1b89718d1e8/output/res/drawable-mdpi-v4/fab_shadow_mini.png"
+        "source": "/root/.android/build-cache/251a517773a25b3bf8ac8f6896df2174bb65736b/output/res/drawable-mdpi-v4/fab_shadow_mini.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/fab_shadow.png",
-        "source": "/root/.android/build-cache/962ad0933d540c41eb88f09eb70ca1b89718d1e8/output/res/drawable-mdpi-v4/fab_shadow.png"
+        "source": "/root/.android/build-cache/251a517773a25b3bf8ac8f6896df2174bb65736b/output/res/drawable-mdpi-v4/fab_shadow.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -345,6 +345,6 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-mdpi-v4/exo_controls_next.png",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/drawable-mdpi-v4/exo_controls_next.png"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/drawable-mdpi-v4/exo_controls_next.png"
     }
 ]

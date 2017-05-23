@@ -12,12 +12,12 @@
         "source": "/bitrise/src/res/drawable/conversation_item_background.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_tintable.xml",
-        "source": "/bitrise/src/res/drawable/circle_tintable.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_text_cursor_material.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_tintable.xml",
+        "source": "/bitrise/src/res/drawable/circle_tintable.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_switch_thumb_material.xml",
@@ -32,12 +32,12 @@
         "source": "/bitrise/src/res/drawable/ic_textsms_24dp.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_backspace_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_light.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/button_background_dark.xml",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/button_background_dark.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/button_background_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_dark.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_backspace_light.xml",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_backspace_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_control_background.xml",
@@ -64,16 +64,16 @@
         "source": "/bitrise/src/res/drawable/clickable_card_dark.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_bluetooth_button.xml",
-        "source": "/bitrise/src/res/drawable/webrtc_bluetooth_button.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_alpha.xml",
+        "source": "/bitrise/src/res/drawable/circle_alpha.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/crop__selectable_background.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__selectable_background.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable/crop__selectable_background.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_alpha.xml",
-        "source": "/bitrise/src/res/drawable/circle_alpha.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_bluetooth_button.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_bluetooth_button.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/pause_icon.xml",
@@ -105,7 +105,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_check_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_check_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/play_to_pause_animation.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/button_background_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/button_background_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/design_snackbar_background.xml",
@@ -201,7 +201,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/psts_background_tab.xml",
-        "source": "/root/.android/build-cache/95047000c7821c07e051fafd352e6baf183a497b/output/res/drawable/psts_background_tab.xml"
+        "source": "/root/.android/build-cache/d06db7f375aa6590aa5109e5fc26fdffbb1e11ba/output/res/drawable/psts_background_tab.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_colored_material.xml",
@@ -241,11 +241,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/done_background_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/done_background_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/switch_track_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_track_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/switch_track_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_brightness_6_24dp.xml",
@@ -257,7 +257,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_check_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_check_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_sent_indicator_text_shape.xml",
@@ -305,7 +305,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/switch_thumb.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_thumb.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/switch_thumb.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_voice_search_api_material.xml",
@@ -317,7 +317,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/crop__texture.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__texture.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable/crop__texture.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_activity_dark.xml",
@@ -361,7 +361,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/recurrence_bubble_fill.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/recurrence_bubble_fill.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/recurrence_bubble_fill.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_emoticons_dark.xml",
@@ -381,7 +381,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/edit_text_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/edit_text_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/edit_text_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/redphone_ic_in_call_touch_handle.xml",
@@ -441,7 +441,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_backspace_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_backspace_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/background_pattern_repeat.xml",
@@ -461,11 +461,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/key_background_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/key_background_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/item_background_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/item_background_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/item_background_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_seekbar_tick_mark_material.xml",
@@ -473,7 +473,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/spinner_background_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/spinner_background_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/spinner_background_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/background_pane.9.png",
@@ -569,11 +569,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/done_background_color_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/done_background_color_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/list_selector_background_transition_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/list_selector_background_transition_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notification_bg.xml",
@@ -585,7 +585,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/key_background_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/key_background_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_item_background_holo_light.xml",

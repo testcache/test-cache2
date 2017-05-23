@@ -4,12 +4,12 @@
         "source": "/bitrise/src/res/menu/conversation_context.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/log_submit.xml",
-        "source": "/bitrise/src/res/menu/log_submit.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_list.xml",
         "source": "/bitrise/src/res/menu/conversation_list.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/log_submit.xml",
+        "source": "/bitrise/src/res/menu/log_submit.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_list_batch_unarchive.xml",
@@ -32,12 +32,12 @@
         "source": "/bitrise/src/res/menu/verify_display_fragment_context_menu.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_list_batch_archive.xml",
-        "source": "/bitrise/src/res/menu/conversation_list_batch_archive.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_add_to_contacts.xml",
         "source": "/bitrise/src/res/menu/conversation_add_to_contacts.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_list_batch_archive.xml",
+        "source": "/bitrise/src/res/menu/conversation_list_batch_archive.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/menu/conversation_callable_secure.xml",

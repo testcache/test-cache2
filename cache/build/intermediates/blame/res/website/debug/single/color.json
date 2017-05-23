@@ -25,7 +25,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/dialog_text_color_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/dialog_text_color_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/dialog_text_color_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/abc_primary_text_material_dark.xml",
@@ -49,11 +49,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/dialog_text_color_holo_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/dialog_text_color_holo_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/dialog_text_color_holo_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/done_text_color_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/done_text_color_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/done_text_color_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/design_tint_password_toggle.xml",
@@ -77,7 +77,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/date_picker_selector.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/date_picker_selector.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/date_picker_selector.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/text_color_dark_theme.xml",
@@ -85,15 +85,15 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/recurrence_bubble_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/recurrence_bubble_text_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/recurrence_bubble_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/recurrence_spinner_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/recurrence_spinner_text_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/recurrence_spinner_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/date_picker_year_selector.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/date_picker_year_selector.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/date_picker_year_selector.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/abc_primary_text_disable_only_material_dark.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/done_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/done_text_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/done_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/color/abc_primary_text_material_light.xml",

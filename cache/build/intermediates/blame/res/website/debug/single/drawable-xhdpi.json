@@ -25,7 +25,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/dialog_full_holo_dark.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/dialog_full_holo_dark.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/dialog_full_holo_dark.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_flag_activated_dark.png",
@@ -40,12 +40,12 @@
         "source": "/bitrise/src/res/drawable-xhdpi/ic_emoji_flag_normal_light.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_content_copy_white_24dp.png",
-        "source": "/bitrise/src/res/drawable-xhdpi/ic_content_copy_white_24dp.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_save_white_24dp.png",
         "source": "/bitrise/src/res/drawable-xhdpi/ic_save_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_content_copy_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xhdpi/ic_content_copy_white_24dp.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_lock_white_18dp.png",
@@ -61,7 +61,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/list_selector_disabled_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/list_selector_disabled_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_photo_camera_light.png",
@@ -72,24 +72,24 @@
         "source": "/bitrise/src/res/drawable-xhdpi/ic_timer_white_24dp.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_check_normal_dark.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_check_normal_dark.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/spinner_pressed_holo_light.9.png",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/spinner_pressed_holo_light.9.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/spinner_pressed_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/spinner_pressed_holo_light.9.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_check_normal_dark.png",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_check_normal_dark.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_bluetooth_white_24dp.png",
         "source": "/bitrise/src/res/drawable-xhdpi/ic_bluetooth_white_24dp.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_dialpad_white_24dp.png",
-        "source": "/bitrise/src/res/drawable-xhdpi/ic_dialpad_white_24dp.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/redphone_ic_lockscreen_decline_activated.png",
         "source": "/bitrise/src/res/drawable-xhdpi/redphone_ic_lockscreen_decline_activated.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_dialpad_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xhdpi/ic_dialpad_white_24dp.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_mic_white_24dp.png",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_bg_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_bg_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_bg_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_audio_dark.png",
@@ -108,28 +108,28 @@
         "source": "/bitrise/src/res/drawable-xhdpi/ic_mic_off_white_24dp.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_menu_add_field_holo_light.png",
-        "source": "/bitrise/src/res/drawable-xhdpi/ic_menu_add_field_holo_light.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_volume_up_dark.png",
+        "source": "/bitrise/src/res/drawable-xhdpi/ic_volume_up_dark.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_image_light.png",
         "source": "/bitrise/src/res/drawable-xhdpi/ic_image_light.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_volume_up_dark.png",
-        "source": "/bitrise/src/res/drawable-xhdpi/ic_volume_up_dark.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_menu_add_field_holo_light.png",
+        "source": "/bitrise/src/res/drawable-xhdpi/ic_menu_add_field_holo_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_warning_light.png",
         "source": "/bitrise/src/res/drawable-xhdpi/ic_warning_light.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_info_outline_light.png",
-        "source": "/bitrise/src/res/drawable-xhdpi/ic_info_outline_light.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_disabled_holo_light.9.png",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/textfield_disabled_holo_light.9.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_disabled_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/textfield_disabled_holo_light.9.png"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_info_outline_light.png",
+        "source": "/bitrise/src/res/drawable-xhdpi/ic_info_outline_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/check.png",
@@ -145,7 +145,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_check_normal_light.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_check_normal_light.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_check_normal_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_send_push.png",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_thumb_activated_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_thumb_activated_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_thumb_activated_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/icon_dialog.png",
@@ -309,7 +309,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/list_longpressed_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/list_longpressed_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/list_longpressed_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_volume_up_light.png",
@@ -333,7 +333,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_search_holo_light.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_search_holo_light.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_search_holo_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/quick_camera_light.png",
@@ -349,7 +349,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_activated_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/textfield_activated_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/textfield_activated_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_dashboard_white_24dp.png",
@@ -357,11 +357,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/list_focused_holo.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/list_focused_holo.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/list_focused_holo.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/spinner_default_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/spinner_default_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/spinner_default_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_menu_lock_dark.png",
@@ -413,7 +413,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_backspace_normal_light.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_backspace_normal_light.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_backspace_normal_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_people_normal_light.png",
@@ -441,7 +441,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_recurrence_bubble_fill.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_recurrence_bubble_fill.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_recurrence_bubble_fill.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_places_activated_dark.png",
@@ -469,7 +469,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_clear_search_holo_light.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_clear_search_holo_light.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_clear_search_holo_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/alert.png",
@@ -485,7 +485,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_thumb_pressed_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_thumb_pressed_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_thumb_pressed_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_activity_normal_dark.png",
@@ -493,7 +493,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/list_pressed_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/list_pressed_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/list_pressed_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_info_outline_dark.png",
@@ -557,7 +557,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_default_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/textfield_default_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/textfield_default_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_mood_grey600_24dp.png",
@@ -593,7 +593,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_bg_focused_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_bg_focused_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_bg_focused_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_audio_light.png",
@@ -617,7 +617,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_backspace_disabled_light.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_backspace_disabled_light.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_backspace_disabled_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_contact_picture.png",
@@ -629,7 +629,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_recurrence_bubble_disabled.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_recurrence_bubble_disabled.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_recurrence_bubble_disabled.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_forward_white_24dp.png",
@@ -681,7 +681,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_recurrence_bubble_outline_disabled.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_recurrence_bubble_outline_disabled.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_recurrence_bubble_outline_disabled.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_call_secure_white_24dp.png",
@@ -737,11 +737,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/spinner_focused_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/spinner_focused_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/spinner_focused_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_bg_disabled_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_bg_disabled_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_bg_disabled_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_foods_activated_dark.png",
@@ -749,7 +749,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_check_light_disabled.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_check_light_disabled.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_check_light_disabled.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_group_white_24dp.png",
@@ -797,7 +797,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_thumb_holo_light_v2.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_thumb_holo_light_v2.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_thumb_holo_light_v2.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_devices_white.png",
@@ -817,7 +817,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_backspace_disabled_dark.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_backspace_disabled_dark.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_backspace_disabled_dark.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_message_black_18dp.png",
@@ -869,7 +869,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/switch_thumb_disabled_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/switch_thumb_disabled_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/switch_thumb_disabled_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_send_sms_white_24dp.png",
@@ -905,7 +905,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/spinner_disabled_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/spinner_disabled_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/spinner_disabled_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/received_bubble.9.png",
@@ -921,7 +921,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_recurrence_bubble_outline.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_recurrence_bubble_outline.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_recurrence_bubble_outline.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_mood_white_24dp.png",
@@ -945,7 +945,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_disabled_focused_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/textfield_disabled_focused_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/textfield_disabled_focused_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_file_download_white_36dp.png",
@@ -977,7 +977,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_check_dark_disabled.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_check_dark_disabled.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_check_dark_disabled.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/icon_lock.png",
@@ -1009,7 +1009,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_backspace_normal_dark.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/ic_backspace_normal_dark.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/ic_backspace_normal_dark.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_emoji_recents_normal_dark.png",
@@ -1033,7 +1033,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/textfield_focused_holo_light.9.png",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable-xhdpi/textfield_focused_holo_light.9.png"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable-xhdpi/textfield_focused_holo_light.9.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xhdpi/ic_add_white_24dp.png",

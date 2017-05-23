@@ -28,12 +28,12 @@
         "source": "/bitrise/src/res/menu/verify_display_fragment_context_menu.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_insecure.xml",
-        "source": "/bitrise/src/res/menu/conversation_insecure.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_unmuted.xml",
         "source": "/bitrise/src/res/menu/conversation_unmuted.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_insecure.xml",
+        "source": "/bitrise/src/res/menu/conversation_insecure.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/local_identity.xml",

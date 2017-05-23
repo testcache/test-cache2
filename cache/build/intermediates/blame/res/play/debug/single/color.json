@@ -8,12 +8,12 @@
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/recurrence_spinner_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/recurrence_spinner_text_color.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_search_url_text.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/recurrence_spinner_text_color.xml",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/recurrence_spinner_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/design_tint_password_toggle.xml",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/recurrence_bubble_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/recurrence_bubble_text_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/recurrence_bubble_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/switch_thumb_material_dark.xml",
@@ -65,11 +65,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/date_picker_year_selector.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/date_picker_year_selector.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/date_picker_year_selector.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/date_picker_selector.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/date_picker_selector.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/date_picker_selector.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_tint_default.xml",
@@ -85,7 +85,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/done_text_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/done_text_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/done_text_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_tint_switch_thumb.xml",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/dialog_text_color_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/dialog_text_color_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/dialog_text_color_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_tint_switch_track.xml",
@@ -121,7 +121,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/done_text_color_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/done_text_color_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/done_text_color_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_tint_spinner.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/dialog_text_color_holo_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/color/dialog_text_color_holo_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/color/dialog_text_color_holo_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color/abc_secondary_text_material_light.xml",

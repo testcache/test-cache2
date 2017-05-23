@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/powered_by_google_dark.png",
-        "source": "/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/res/drawable-xxxhdpi-v4/powered_by_google_dark.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/design_ic_visibility_off.png",
         "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/powered_by_google_dark.png",
+        "source": "/root/.android/build-cache/fb4ea80ac19d6124a0feddf17349e7f4bfa36394/output/res/drawable-xxxhdpi-v4/powered_by_google_dark.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",
@@ -13,7 +13,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/fab_shadow.png",
-        "source": "/root/.android/build-cache/962ad0933d540c41eb88f09eb70ca1b89718d1e8/output/res/drawable-xxxhdpi-v4/fab_shadow.png"
+        "source": "/root/.android/build-cache/251a517773a25b3bf8ac8f6896df2174bb65736b/output/res/drawable-xxxhdpi-v4/fab_shadow.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/powered_by_google_light.png",
@@ -57,7 +57,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/fab_shadow_mini.png",
-        "source": "/root/.android/build-cache/962ad0933d540c41eb88f09eb70ca1b89718d1e8/output/res/drawable-xxxhdpi-v4/fab_shadow_mini.png"
+        "source": "/root/.android/build-cache/251a517773a25b3bf8ac8f6896df2174bb65736b/output/res/drawable-xxxhdpi-v4/fab_shadow_mini.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",

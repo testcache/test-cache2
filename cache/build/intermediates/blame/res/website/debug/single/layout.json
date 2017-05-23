@@ -1,11 +1,11 @@
 [
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/hms_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/hms_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/hms_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/exo_playback_control_view.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/layout/exo_playback_control_view.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/layout/exo_playback_control_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/quick_attachment_drawer.xml",
@@ -17,19 +17,19 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/preference_list_fragment.xml",
-        "source": "/root/.android/build-cache/22cab0adf2aec85163f2f8d99d6ebf4c20e0714f/output/res/layout/preference_list_fragment.xml"
+        "source": "/root/.android/build-cache/de36f8b016d472ab52bf2deb85b0d5b657bc6b60/output/res/layout/preference_list_fragment.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/message_details_activity.xml",
         "source": "/bitrise/src/res/layout/message_details_activity.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_text_with_header.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard_text_with_header.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/notification_action_tombstone.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_text_with_header.xml",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard_text_with_header.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/device_add_fragment.xml",
@@ -44,12 +44,12 @@
         "source": "/bitrise/src/res/layout/media_overview_activity.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_item_sent.xml",
-        "source": "/bitrise/src/res/layout/conversation_item_sent.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_action_menu_layout.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_item_sent.xml",
+        "source": "/bitrise/src/res/layout/conversation_item_sent.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/log_submit_activity.xml",
@@ -72,12 +72,12 @@
         "source": "/bitrise/src/res/layout/scribble_view.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/hms_picker_view.xml",
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/hms_picker_view.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/hms_picker_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/hms_picker_view.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/audio_view.xml",
@@ -93,11 +93,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/three_keys_view_leftright.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/three_keys_view_leftright.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/three_keys_view_leftright.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/number_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/number_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/number_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/single_recipient_panel.xml",
@@ -105,15 +105,15 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/recurrencepicker_end_text.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/recurrencepicker_end_text.xml"
-    },
-    {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/design_navigation_item.xml",
-        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/layout/design_navigation_item.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/recurrencepicker_end_text.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_fragment.xml",
         "source": "/bitrise/src/res/layout/conversation_fragment.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/design_navigation_item.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/blocked_contact_list_item.xml",
@@ -136,12 +136,12 @@
         "source": "/bitrise/src/res/layout/scribble_activity.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/notification_template_media_custom.xml",
-        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/icon_list_item.xml",
         "source": "/bitrise/src/res/layout/icon_list_item.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/notification_template_media_custom.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/led_color_preference_widget.xml",
@@ -201,11 +201,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/share_intent_row.xml",
-        "source": "/root/.android/build-cache/0ef942ba2997c6c810efbb066e7a07976012cbc7/output/res/layout/share_intent_row.xml"
+        "source": "/root/.android/build-cache/412c8e660b1a5c3b4df718a7b9e6f80f1f421e6a/output/res/layout/share_intent_row.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_date_picker_done_button.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_date_picker_done_button.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_date_picker_done_button.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -221,7 +221,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/crop__layout_done_cancel.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/layout/crop__layout_done_cancel.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/layout/crop__layout_done_cancel.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/selected_recipient_list_item.xml",
@@ -229,11 +229,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_right_drawable.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard_right_drawable.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard_right_drawable.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_select_dialog_material.xml",
@@ -280,12 +280,12 @@
         "source": "/bitrise/src/res/layout/database_upgrade_activity.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/thumbnail_view.xml",
-        "source": "/bitrise/src/res/layout/thumbnail_view.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/design_navigation_menu_item.xml",
         "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/thumbnail_view.xml",
+        "source": "/bitrise/src/res/layout/thumbnail_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/emoji_drawer.xml",
@@ -316,12 +316,12 @@
         "source": "/bitrise/src/res/layout/led_pattern_dialog.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_activity_attachment_editor_stub.xml",
-        "source": "/bitrise/src/res/layout/conversation_activity_attachment_editor_stub.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/webrtc_incoming_call_overlay.xml",
         "source": "/bitrise/src/res/layout/webrtc_incoming_call_overlay.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_activity_attachment_editor_stub.xml",
+        "source": "/bitrise/src/res/layout/conversation_activity_attachment_editor_stub.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/recycler_view_fast_scroller.xml",
@@ -333,7 +333,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/three_keys_view_text.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/three_keys_view_text.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/three_keys_view_text.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/scribble_select_sticker_fragment.xml",
@@ -345,7 +345,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/expiration_picker_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/expiration_picker_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/expiration_picker_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/contact_selection_list_fragment.xml",
@@ -361,7 +361,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/time_zone_filter_item.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/time_zone_filter_item.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/time_zone_filter_item.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/registration_progress_activity.xml",
@@ -401,7 +401,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_right_drawable_with_header.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard_right_drawable_with_header.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard_right_drawable_with_header.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_screen_simple.xml",
@@ -409,11 +409,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_date_picker_view_animator.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_date_picker_view_animator.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_date_picker_view_animator.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/empty_time_zone_item.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/empty_time_zone_item.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/empty_time_zone_item.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/design_layout_tab_text.xml",
@@ -429,7 +429,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/expiration_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/expiration_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/expiration_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/transport_selection_list_item.xml",
@@ -465,11 +465,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/psts_tab.xml",
-        "source": "/root/.android/build-cache/95047000c7821c07e051fafd352e6baf183a497b/output/res/layout/psts_tab.xml"
+        "source": "/root/.android/build-cache/d06db7f375aa6590aa5109e5fc26fdffbb1e11ba/output/res/layout/psts_tab.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_year_label_text_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_year_label_text_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_year_label_text_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/contact_selection_list_header.xml",
@@ -485,7 +485,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_text.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard_text.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard_text.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/transfer_controls_stub.xml",
@@ -493,7 +493,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/share_intent_list.xml",
-        "source": "/root/.android/build-cache/0ef942ba2997c6c810efbb066e7a07976012cbc7/output/res/layout/share_intent_list.xml"
+        "source": "/root/.android/build-cache/412c8e660b1a5c3b4df718a7b9e6f80f1f421e6a/output/res/layout/share_intent_list.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/delivery_status_view.xml",
@@ -509,7 +509,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/exo_simple_player_view.xml",
-        "source": "/root/.android/build-cache/33f5c64bf98cda7d1873918e1ebd1523433abe04/output/res/layout/exo_simple_player_view.xml"
+        "source": "/root/.android/build-cache/0d40749e9b26972bec63931a14c075dcf1193371/output/res/layout/exo_simple_player_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/verify_display_fragment.xml",
@@ -537,7 +537,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/fragment_submit_log.xml",
-        "source": "/root/.android/build-cache/0ef942ba2997c6c810efbb066e7a07976012cbc7/output/res/layout/fragment_submit_log.xml"
+        "source": "/root/.android/build-cache/412c8e660b1a5c3b4df718a7b9e6f80f1f421e6a/output/res/layout/fragment_submit_log.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/recent_photo_view.xml",
@@ -549,7 +549,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/keyboard_with_header.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/keyboard_with_header.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/keyboard_with_header.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_action_mode_bar.xml",
@@ -557,7 +557,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/dots_text_view.xml",
-        "source": "/root/.android/build-cache/e025b3d71f3fb161bfafcd22087bc50b01165ce4/output/res/layout/dots_text_view.xml"
+        "source": "/root/.android/build-cache/53848d5bb649de8b3b7d36892f5f265b4b718191/output/res/layout/dots_text_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -581,7 +581,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/time_zone_item.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/time_zone_item.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/time_zone_item.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_item_received_document.xml",
@@ -597,7 +597,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/radial_time_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/radial_time_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/radial_time_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/abc_alert_dialog_button_bar_material.xml",
@@ -649,7 +649,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/three_keys_view_right_drawable.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/three_keys_view_right_drawable.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/three_keys_view_right_drawable.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/document_view.xml",
@@ -657,11 +657,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/crop__activity_crop.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/layout/crop__activity_crop.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/layout/crop__activity_crop.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/time_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/time_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/time_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_activity_emojidrawer_stub.xml",
@@ -693,7 +693,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/time_picker_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/time_picker_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/time_picker_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/push_recipients_panel.xml",
@@ -701,7 +701,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/recurrencepicker.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/recurrencepicker.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/recurrencepicker.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/device_link_fragment.xml",
@@ -709,7 +709,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/radial_time_header_label.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/radial_time_header_label.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/radial_time_header_label.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/color_fragment.xml",
@@ -737,7 +737,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/recurrencepicker_freq_item.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/recurrencepicker_freq_item.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/recurrencepicker_freq_item.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/place_autocomplete_item_powered_by_google.xml",
@@ -757,7 +757,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/number_picker_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/number_picker_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/number_picker_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/quick_camera_controls.xml",
@@ -765,11 +765,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_date_picker_header_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_date_picker_header_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_date_picker_header_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_date_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_date_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_date_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/notification_template_icon_group.xml",
@@ -821,7 +821,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/three_keys_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/three_keys_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/three_keys_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/conversation_list_fragment.xml",
@@ -829,7 +829,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/calendar_date_picker_selected_date.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/calendar_date_picker_selected_date.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/calendar_date_picker_selected_date.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/giphy_thumbnail.xml",
@@ -837,7 +837,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/date_picker_view.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/date_picker_view.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/date_picker_view.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/key_caching_notification.xml",
@@ -857,7 +857,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/timezonepickerview.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/timezonepickerview.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/timezonepickerview.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/database_migration_activity.xml",
@@ -877,7 +877,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/date_picker_dialog.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/layout/date_picker_dialog.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/layout/date_picker_dialog.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/layout/message_details_header.xml",

@@ -16,20 +16,20 @@
         "source": "/bitrise/src/res/drawable/background_pane.9.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_foods_light.xml",
-        "source": "/bitrise/src/res/drawable/emoji_category_foods_light.xml"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_flags_dark.xml",
-        "source": "/bitrise/src/res/drawable/emoji_category_flags_dark.xml"
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_foods_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_foods_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_flags_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_flags_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_textfield_search_material.xml",
@@ -49,7 +49,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/key_background_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/key_background_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/webrtc_speaker_button.xml",
@@ -129,7 +129,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/button_background_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/button_background_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/background_pattern.png",
@@ -153,7 +153,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/crop__selectable_background.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__selectable_background.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable/crop__selectable_background.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_item_background_holo_light.xml",
@@ -189,7 +189,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/ic_backspace_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_backspace_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_ic_search_api_material.xml",
@@ -233,7 +233,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/button_background_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/button_background_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/ic_laptop_24dp.xml",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/done_background_color.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/done_background_color.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/conversation_list_divider_shape_dark.xml",
@@ -297,7 +297,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/item_background_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/item_background_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/item_background_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/redphone_ic_lockscreen_answer.xml",
@@ -309,7 +309,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/ic_check_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_check_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_ratingbar_small_material.xml",
@@ -317,7 +317,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/switch_thumb.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_thumb.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/switch_thumb.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/circle_tintable.xml",
@@ -329,7 +329,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/list_selector_background_transition_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/list_selector_background_transition_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_symbol_light.xml",
@@ -341,7 +341,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/recurrence_bubble_fill.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/recurrence_bubble_fill.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/recurrence_bubble_fill.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/play_to_pause_animation.xml",
@@ -393,7 +393,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/ic_backspace_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_backspace_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/redphone_ic_lockscreen_decline.xml",
@@ -433,7 +433,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/switch_track_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_track_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/switch_track_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_ic_voice_search_api_material.xml",
@@ -457,11 +457,11 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/edit_text_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/edit_text_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/edit_text_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/ic_check_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/ic_check_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -473,7 +473,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/done_background_color_dark.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color_dark.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/done_background_color_dark.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -517,7 +517,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/spinner_background_holo_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/spinner_background_holo_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/spinner_background_holo_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/emoji_category_foods_dark.xml",
@@ -529,7 +529,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/key_background_light.xml",
-        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_light.xml"
+        "source": "/root/.android/build-cache/cfc35f8873ccb6b9babdd8a289249ea804d9a9cb/output/res/drawable/key_background_light.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/webrtc_video_mute_button.xml",
@@ -549,7 +549,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/crop__texture.xml",
-        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__texture.xml"
+        "source": "/root/.android/build-cache/434c60f18d0b967ec7d2defab5056959f84de11f/output/res/drawable/crop__texture.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/abc_btn_borderless_material.xml",
@@ -601,7 +601,7 @@
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/psts_background_tab.xml",
-        "source": "/root/.android/build-cache/95047000c7821c07e051fafd352e6baf183a497b/output/res/drawable/psts_background_tab.xml"
+        "source": "/root/.android/build-cache/d06db7f375aa6590aa5109e5fc26fdffbb1e11ba/output/res/drawable/psts_background_tab.xml"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable/rounded_rectangle.xml",

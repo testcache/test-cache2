@@ -44,12 +44,12 @@
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_menu_lock_dark.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_mic_white_24dp.png",
-        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_white_24dp.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_photo_library_white_24dp.png",
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_photo_library_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_mic_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_white_24dp.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_pets_white_24dp.png",
@@ -100,12 +100,12 @@
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_flag_activated_dark.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_emoji_activity_normal_light.png",
-        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_normal_light.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_keyboard_arrow_left_grey600_24dp.png",
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_keyboard_arrow_left_grey600_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_emoji_activity_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_normal_light.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_emoji_nature_activated_light.png",
@@ -120,12 +120,12 @@
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_phone_grey600_32dp.png"
     },
     {
-        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_timer_white_24dp.png",
-        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_timer_white_24dp.png"
-    },
-    {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_unarchive_white_24dp.png",
         "source": "/bitrise/src/res/drawable-xxxhdpi/ic_unarchive_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_timer_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_timer_white_24dp.png"
     },
     {
         "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-xxxhdpi/ic_dashboard_white_24dp.png",
