@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/bottom_pause_to_play_animation.xml",
+        "source": "/bitrise/src/res/animator/bottom_pause_to_play_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/upper_play_to_pause_animation.xml",
+        "source": "/bitrise/src/res/animator/upper_play_to_pause_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/bottom_play_to_pause_animation.xml",
+        "source": "/bitrise/src/res/animator/bottom_play_to_pause_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/upper_pause_to_play_animation.xml",
+        "source": "/bitrise/src/res/animator/upper_pause_to_play_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/rotate_minus_90_animation.xml",
+        "source": "/bitrise/src/res/animator/rotate_minus_90_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/animator/rotate_90_animation.xml",
+        "source": "/bitrise/src/res/animator/rotate_90_animation.xml"
+    }
+]

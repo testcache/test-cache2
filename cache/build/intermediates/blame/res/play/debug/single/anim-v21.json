@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

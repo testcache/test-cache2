@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_dialpad_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_dialpad_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_activity_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_dashboard_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_dashboard_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_activity_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_volume_off_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_volume_off_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_keyboard_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_keyboard_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_done_all_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_done_all_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_mic_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_image_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_image_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_foods_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_foods_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_foods_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_foods_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_scroll_down.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_scroll_down.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_photo_camera_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_photo_camera_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_gif_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_gif_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_people_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_people_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_flag_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_flag_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_work_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_work_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/icon_transparent.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/icon_transparent.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_security_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_security_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_flag_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_flag_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_places_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_places_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_flag_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_flag_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_reply_white_36dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_reply_white_36dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_launch_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_launch_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/poweredby_giphy.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/poweredby_giphy.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_close_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_close_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_text_fields_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_text_fields_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_nature_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_nature_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_symbols_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_symbols_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_share_black_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_share_black_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_download_circle_fill_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_nature_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_nature_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_play_circle_fill_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_play_circle_fill_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_tag_faces_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_tag_faces_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_activity_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_symbols_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_symbols_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_mic_off_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_off_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_foods_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_foods_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_circle_fill_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_circle_fill_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_videocam_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_videocam_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_send_sms_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_send_sms_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_object_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_object_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_foods_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_foods_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_block_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_block_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_bluetooth_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_bluetooth_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_view_stream_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_view_stream_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_timer_off_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_timer_off_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_forum_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_forum_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_brush_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_brush_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_people_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_people_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_check_white_36dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_check_white_36dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_menu_lock_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_menu_lock_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_file_download_white_36dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_file_download_white_36dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_pets_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_pets_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_photo_library_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_photo_library_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_call_end_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_call_end_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_photo_camera_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_photo_camera_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_headset_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_headset_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_nature_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_nature_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_symbols_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_symbols_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_places_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_places_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_notifications_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_notifications_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_message_black_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_message_black_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_symbols_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_symbols_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_message_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_brightness_6_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_brightness_6_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_content_copy_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_content_copy_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_share_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_share_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_keyboard_arrow_left_grey600_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_keyboard_arrow_left_grey600_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_check_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_check_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_archive_white_36dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_archive_white_36dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_places_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_places_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_nature_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_nature_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_mic_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_keyboard_arrow_down_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/icon.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_places_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_places_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/love_heart.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/love_heart.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_insert_drive_file_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_insert_drive_file_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_play_circle_outline_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_play_circle_outline_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_wb_sunny_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_wb_sunny_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_object_normal_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_object_normal_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_amazon.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_amazon.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_advanced_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_advanced_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_add_white_original_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_add_white_original_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_clear_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_pause_circle_fill_white_48dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_pause_circle_fill_white_48dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_info_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_info_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_textsms_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_textsms_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_laptop_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_laptop_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_mic_grey600_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_mic_grey600_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_arrow_forward_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_arrow_forward_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_volume_off_grey600_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_volume_off_grey600_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_hourglass_empty_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_hourglass_empty_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_unarchive_white_36dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_unarchive_white_36dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_flag_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_flag_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_camera_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_camera_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_phone_grey600_32dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_phone_grey600_32dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_hourglass_full_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_hourglass_full_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_object_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_object_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_call_end_grey600_32dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_call_end_grey600_32dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_object_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_object_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_send_push_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_send_push_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_contact_picture_large.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_contact_picture_large.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_close_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_close_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_people_activated_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_people_activated_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_people_normal_light.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_people_normal_light.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_local_dining_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_local_dining_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_volume_up_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_volume_up_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_emoji_activity_activated_dark.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_emoji_activity_activated_dark.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_archive_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_archive_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/transfer_controls_background.9.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/transfer_controls_background.9.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_timer_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_timer_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/icon_circle.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/icon_circle.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_signal_grey_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_signal_grey_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_save_all_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_save_all_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_close_grey600_32dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_close_grey600_32dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_replay_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_replay_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_done_white_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_done_white_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_location_on_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_location_on_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_devices_white.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_devices_white.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_person_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_person_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/video_splash.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/video_splash.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_favorite_grey600_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_favorite_grey600_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_unarchive_white_24dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_unarchive_white_24dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/ic_block_grey600_18dp.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/ic_block_grey600_18dp.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-xxxhdpi/icon_cached.png",
+        "source": "/bitrise/src/res/drawable-xxxhdpi/icon_cached.png"
+    }
+]

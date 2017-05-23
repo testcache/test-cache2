@@ -1,0 +1,622 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/compose_background.xml",
+        "source": "/bitrise/src/res/drawable/compose_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_background.xml",
+        "source": "/bitrise/src/res/drawable/conversation_item_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_tintable.xml",
+        "source": "/bitrise/src/res/drawable/circle_tintable.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_activity_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_activity_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_textsms_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_textsms_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_backspace_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/button_background_dark.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_control_background.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_control_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/design_password_eye.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_attachment_edit.xml",
+        "source": "/bitrise/src/res/drawable/conversation_attachment_edit.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_advanced_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_advanced_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/clickable_card_light.xml",
+        "source": "/bitrise/src/res/drawable/clickable_card_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/clickable_card_dark.xml",
+        "source": "/bitrise/src/res/drawable/clickable_card_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_bluetooth_button.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_bluetooth_button.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/crop__selectable_background.xml",
+        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__selectable_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_alpha.xml",
+        "source": "/bitrise/src/res/drawable/circle_alpha.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/pause_icon.xml",
+        "source": "/bitrise/src/res/drawable/pause_icon.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_emoticons_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_emoticons_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/circle_touch_highlight_background.xml",
+        "source": "/bitrise/src/res/drawable/circle_touch_highlight_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/redphone_ic_lockscreen_decline.xml",
+        "source": "/bitrise/src/res/drawable/redphone_ic_lockscreen_decline.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notification_icon_background.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/last_seen_divider_text_background_light.xml",
+        "source": "/bitrise/src/res/drawable/last_seen_divider_text_background_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_check_dark.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/play_to_pause_animation.xml",
+        "source": "/bitrise/src/res/drawable/play_to_pause_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/recycler_view_fast_scroller_handle.xml",
+        "source": "/bitrise/src/res/drawable/recycler_view_fast_scroller_handle.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/pill_button.xml",
+        "source": "/bitrise/src/res/drawable/pill_button.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_header_background.xml",
+        "source": "/bitrise/src/res/drawable/conversation_item_header_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_item_read_background.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_item_read_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/background_pattern.png",
+        "source": "/bitrise/src/res/drawable/background_pattern.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_sent_indicator_text_shape_dark.xml",
+        "source": "/bitrise/src/res/drawable/conversation_item_sent_indicator_text_shape_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_header_background_dark.xml",
+        "source": "/bitrise/src/res/drawable/conversation_item_header_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/import_export_item_background_dark.xml",
+        "source": "/bitrise/src/res/drawable/import_export_item_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/pause_to_play_animation.xml",
+        "source": "/bitrise/src/res/drawable/pause_to_play_animation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/preference_divider_dark.xml",
+        "source": "/bitrise/src/res/drawable/preference_divider_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_item_read_background_dark.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_item_read_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/actionbar_icon.xml",
+        "source": "/bitrise/src/res/drawable/actionbar_icon.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/button_background_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/button_background_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/design_snackbar_background.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_item_unread_background.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_item_unread_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notify_panel_notification_icon_bg_tile.xml",
+        "source": "/bitrise/src/res/drawable/notify_panel_notification_icon_bg_tile.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/progress_background.xml",
+        "source": "/bitrise/src/res/drawable/progress_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/psts_background_tab.xml",
+        "source": "/root/.android/build-cache/95047000c7821c07e051fafd352e6baf183a497b/output/res/drawable/psts_background_tab.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_people_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_people_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_symbol_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_symbol_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/root/.android/build-cache/3cc3ddc4da5ee1968636a918e725c11ce5686200/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/done_background_color.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/switch_track_holo_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_track_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_brightness_6_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_brightness_6_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_divider_shape_dark.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_divider_shape_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_check_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_check_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_item_sent_indicator_text_shape.xml",
+        "source": "/bitrise/src/res/drawable/conversation_item_sent_indicator_text_shape.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_speaker_button.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_speaker_button.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_nature_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_nature_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/redphone_ic_lockscreen_answer.xml",
+        "source": "/bitrise/src/res/drawable/redphone_ic_lockscreen_answer.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_notifications_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_notifications_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/share_list_divider_shape_dark.xml",
+        "source": "/bitrise/src/res/drawable/share_list_divider_shape_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_places_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_places_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_people_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_people_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/navigation_empty_icon.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/switch_thumb.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/switch_thumb.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/crop__texture.xml",
+        "source": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/drawable/crop__texture.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_activity_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_activity_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/qr_code_background.xml",
+        "source": "/bitrise/src/res/drawable/qr_code_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/share_list_divider_shape.xml",
+        "source": "/bitrise/src/res/drawable/share_list_divider_shape.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_foods_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_foods_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notification_tile_bg.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_divider_shape.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_divider_shape.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/play_icon.xml",
+        "source": "/bitrise/src/res/drawable/play_icon.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/design_fab_background.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_vector_test.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_btn_check_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/recurrence_bubble_fill.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/recurrence_bubble_fill.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_emoticons_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_emoticons_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_flags_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_flags_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_foods_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_foods_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/edit_text_holo_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/edit_text_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/redphone_ic_in_call_touch_handle.xml",
+        "source": "/bitrise/src/res/drawable/redphone_ic_in_call_touch_handle.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_objects_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_objects_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_recent_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_recent_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_laptop_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_laptop_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_mute_button.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_mute_button.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/last_seen_divider_text_background_dark.xml",
+        "source": "/bitrise/src/res/drawable/last_seen_divider_text_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_forum_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_forum_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_list_item_unread_background_dark.xml",
+        "source": "/bitrise/src/res/drawable/conversation_list_item_unread_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_recent_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_recent_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/reminder_background.xml",
+        "source": "/bitrise/src/res/drawable/reminder_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_symbol_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_symbol_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/webrtc_video_mute_button.xml",
+        "source": "/bitrise/src/res/drawable/webrtc_video_mute_button.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/quick_camera_shutter_ring.xml",
+        "source": "/bitrise/src/res/drawable/quick_camera_shutter_ring.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_backspace_dark.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/ic_backspace_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/background_pattern_repeat.xml",
+        "source": "/bitrise/src/res/drawable/background_pattern_repeat.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/recycler_view_fast_scroller_bubble.xml",
+        "source": "/bitrise/src/res/drawable/recycler_view_fast_scroller_bubble.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/contact_photo_background.xml",
+        "source": "/bitrise/src/res/drawable/contact_photo_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/key_background_dark.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/item_background_holo_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/item_background_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/spinner_background_holo_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/spinner_background_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/background_pane.9.png",
+        "source": "/bitrise/src/res/drawable/background_pane.9.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notification_bg_low.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_nature_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_nature_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/dialog_background.xml",
+        "source": "/bitrise/src/res/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/error_round.xml",
+        "source": "/bitrise/src/res/drawable/error_round.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_edit_text_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/compose_divider_background.xml",
+        "source": "/bitrise/src/res/drawable/compose_divider_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/rounded_rectangle.xml",
+        "source": "/bitrise/src/res/drawable/rounded_rectangle.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/light_touch_highlight_background.xml",
+        "source": "/bitrise/src/res/drawable/light_touch_highlight_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/preference_divider_light.xml",
+        "source": "/bitrise/src/res/drawable/preference_divider_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/vertical_separator.xml",
+        "source": "/bitrise/src/res/drawable/vertical_separator.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/blocked_indicator_background.xml",
+        "source": "/bitrise/src/res/drawable/blocked_indicator_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_places_dark.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_places_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/import_export_item_background_light.xml",
+        "source": "/bitrise/src/res/drawable/import_export_item_background_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/done_background_color_dark.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/done_background_color_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/list_selector_background_transition_holo_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/notification_bg.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/key_background_light.xml",
+        "source": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/drawable/key_background_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_flags_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_flags_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/emoji_category_objects_light.xml",
+        "source": "/bitrise/src/res/drawable/emoji_category_objects_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/touch_highlight_background.xml",
+        "source": "/bitrise/src/res/drawable/touch_highlight_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/conversation_attachment_close_circle.xml",
+        "source": "/bitrise/src/res/drawable/conversation_attachment_close_circle.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/info_round.xml",
+        "source": "/bitrise/src/res/drawable/info_round.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable/ic_security_24dp.xml",
+        "source": "/bitrise/src/res/drawable/ic_security_24dp.xml"
+    }
+]

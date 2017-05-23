@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

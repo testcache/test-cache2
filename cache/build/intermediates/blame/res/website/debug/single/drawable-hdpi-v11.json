@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-hdpi-v11/icon_cached.png",
+        "source": "/bitrise/src/res/drawable-hdpi-v11/icon_cached.png"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/drawable-hdpi-v11/icon_notification.png",
+        "source": "/bitrise/src/res/drawable-hdpi-v11/icon_notification.png"
+    }
+]

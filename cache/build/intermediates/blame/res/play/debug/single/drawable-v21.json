@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/circle_touch_highlight_background.xml",
+        "source": "/bitrise/src/res/drawable-v21/circle_touch_highlight_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/conversation_list_item_unread_background_dark.xml",
+        "source": "/bitrise/src/res/drawable-v21/conversation_list_item_unread_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/conversation_list_item_read_background.xml",
+        "source": "/bitrise/src/res/drawable-v21/conversation_list_item_read_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/conversation_list_item_unread_background.xml",
+        "source": "/bitrise/src/res/drawable-v21/conversation_list_item_unread_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/dialog_background.xml",
+        "source": "/bitrise/src/res/drawable-v21/dialog_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/notification_action_background.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/design_password_eye.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/conversation_list_item_read_background_dark.xml",
+        "source": "/bitrise/src/res/drawable-v21/conversation_list_item_read_background_dark.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/avd_show_password.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/drawable-v21/touch_highlight_background.xml",
+        "source": "/bitrise/src/res/drawable-v21/touch_highlight_background.xml"
+    }
+]

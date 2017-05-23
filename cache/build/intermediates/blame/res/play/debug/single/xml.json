@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences.xml",
+        "source": "/bitrise/src/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_app_protection.xml",
+        "source": "/bitrise/src/res/xml/preferences_app_protection.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/apns.xml",
+        "source": "/root/.android/build-cache/70325ba4077f70edfcafd850e451f4d976c88389/output/res/xml/apns.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/recipient_preferences.xml",
+        "source": "/bitrise/src/res/xml/recipient_preferences.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/authenticator.xml",
+        "source": "/bitrise/src/res/xml/authenticator.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/automotive_app_desc.xml",
+        "source": "/bitrise/src/res/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_sms_mms.xml",
+        "source": "/bitrise/src/res/xml/preferences_sms_mms.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_advanced.xml",
+        "source": "/bitrise/src/res/xml/preferences_advanced.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/mms_config.xml",
+        "source": "/root/.android/build-cache/70325ba4077f70edfcafd850e451f4d976c88389/output/res/xml/mms_config.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_chats.xml",
+        "source": "/bitrise/src/res/xml/preferences_chats.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_notifications.xml",
+        "source": "/bitrise/src/res/xml/preferences_notifications.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/contactsformat.xml",
+        "source": "/bitrise/src/res/xml/contactsformat.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_appearance.xml",
+        "source": "/bitrise/src/res/xml/preferences_appearance.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/preferences_manual_mms.xml",
+        "source": "/bitrise/src/res/xml/preferences_manual_mms.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/xml/syncadapter.xml",
+        "source": "/bitrise/src/res/xml/syncadapter.xml"
+    }
+]

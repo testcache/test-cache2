@@ -1,0 +1,313 @@
+[
+    {
+        "outputFile": "/bitrise/src/build/intermediates/incremental/mergePlayDebugResources/merged.dir/values-land/values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 69,
+                    "endOffset": 120
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 125,
+                    "endColumn": 63,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 63,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 70,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 70,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 67,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 67,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endColumn": 47,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ad50727ac92193cf19c77d59d48f7145d0def7d3/output/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 47,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 376,
+                    "endColumn": 54,
+                    "endOffset": 426
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 54,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 431,
+                    "endColumn": 46,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 46,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 48,
+                    "endOffset": 522
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 527,
+                    "endColumn": 48,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 48,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 56,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 56,
+                        "endOffset": 555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endColumn": 55,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 55,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 54,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 54,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endColumn": 55,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 55,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 54,
+                    "endOffset": 850
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ff5d41b187234e3b4b7c52c33be8adb8ce9e818d/output/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 54,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 855,
+                    "endColumn": 51,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "/bitrise/src/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1084
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/values-land/values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 232
+                    }
+                }
+            }
+        ]
+    }
+]

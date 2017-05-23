@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/bitrise/src/src/main/shaders"/></dataSet><dataSet config="website"><source path="/bitrise/src/src/website/shaders"/></dataSet><dataSet config="debug"><source path="/bitrise/src/src/debug/shaders"/></dataSet><dataSet config="websiteDebug"><source path="/bitrise/src/src/websiteDebug/shaders"/></dataSet></merger>

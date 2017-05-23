@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_outring.mp3",
+        "source": "/bitrise/src/res/raw/redphone_outring.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/censorship_fronting.store",
+        "source": "/bitrise/src/res/raw/censorship_fronting.store"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/webrtc_disconnected.mp3",
+        "source": "/bitrise/src/res/raw/webrtc_disconnected.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_handshake.mp3",
+        "source": "/bitrise/src/res/raw/redphone_handshake.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_busy.mp3",
+        "source": "/bitrise/src/res/raw/redphone_busy.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/whisper.store",
+        "source": "/bitrise/src/res/raw/whisper.store"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_sonarping.mp3",
+        "source": "/bitrise/src/res/raw/redphone_sonarping.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_failure.mp3",
+        "source": "/bitrise/src/res/raw/redphone_failure.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/redphone_completed.mp3",
+        "source": "/bitrise/src/res/raw/redphone_completed.mp3"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/website/debug/raw/webrtc_completed.mp3",
+        "source": "/bitrise/src/res/raw/webrtc_completed.mp3"
+    }
+]

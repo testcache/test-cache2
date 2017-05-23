@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/layout-v16/video_player.xml",
+        "source": "/bitrise/src/res/layout-v16/video_player.xml"
+    }
+]

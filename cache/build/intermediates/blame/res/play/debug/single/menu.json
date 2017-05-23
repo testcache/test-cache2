@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_mms_group_options.xml",
+        "source": "/bitrise/src/res/menu/conversation_mms_group_options.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_group_options.xml",
+        "source": "/bitrise/src/res/menu/conversation_group_options.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/media_overview.xml",
+        "source": "/bitrise/src/res/menu/media_overview.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/log_submit.xml",
+        "source": "/bitrise/src/res/menu/log_submit.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_push_group_options.xml",
+        "source": "/bitrise/src/res/menu/conversation_push_group_options.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_callable_secure.xml",
+        "source": "/bitrise/src/res/menu/conversation_callable_secure.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/verify_display_fragment_context_menu.xml",
+        "source": "/bitrise/src/res/menu/verify_display_fragment_context_menu.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_insecure.xml",
+        "source": "/bitrise/src/res/menu/conversation_insecure.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_unmuted.xml",
+        "source": "/bitrise/src/res/menu/conversation_unmuted.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/local_identity.xml",
+        "source": "/bitrise/src/res/menu/local_identity.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/share.xml",
+        "source": "/bitrise/src/res/menu/share.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/text_secure_normal.xml",
+        "source": "/bitrise/src/res/menu/text_secure_normal.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_add_to_contacts.xml",
+        "source": "/bitrise/src/res/menu/conversation_add_to_contacts.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_expiring_on.xml",
+        "source": "/bitrise/src/res/menu/conversation_expiring_on.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/group_create.xml",
+        "source": "/bitrise/src/res/menu/group_create.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/media_preview.xml",
+        "source": "/bitrise/src/res/menu/media_preview.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_list_batch.xml",
+        "source": "/bitrise/src/res/menu/conversation_list_batch.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/contact_selection.xml",
+        "source": "/bitrise/src/res/menu/contact_selection.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_list.xml",
+        "source": "/bitrise/src/res/menu/conversation_list.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/redphone_audio_popup_menu.xml",
+        "source": "/bitrise/src/res/menu/redphone_audio_popup_menu.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_callable_insecure.xml",
+        "source": "/bitrise/src/res/menu/conversation_callable_insecure.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_list_batch_unarchive.xml",
+        "source": "/bitrise/src/res/menu/conversation_list_batch_unarchive.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/verify_identity.xml",
+        "source": "/bitrise/src/res/menu/verify_identity.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_popup.xml",
+        "source": "/bitrise/src/res/menu/conversation_popup.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_list_batch_archive.xml",
+        "source": "/bitrise/src/res/menu/conversation_list_batch_archive.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_secure.xml",
+        "source": "/bitrise/src/res/menu/conversation_secure.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_context.xml",
+        "source": "/bitrise/src/res/menu/conversation_context.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/new_conversation_activity.xml",
+        "source": "/bitrise/src/res/menu/new_conversation_activity.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation.xml",
+        "source": "/bitrise/src/res/menu/conversation.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_muted.xml",
+        "source": "/bitrise/src/res/menu/conversation_muted.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/menu/conversation_expiring_off.xml",
+        "source": "/bitrise/src/res/menu/conversation_expiring_off.xml"
+    }
+]

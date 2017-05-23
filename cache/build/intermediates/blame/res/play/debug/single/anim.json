@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_from_right.xml",
+        "source": "/bitrise/src/res/anim/slide_from_right.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/animation_toggle_out.xml",
+        "source": "/bitrise/src/res/anim/animation_toggle_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_fab_in.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_to_bottom.xml",
+        "source": "/bitrise/src/res/anim/slide_to_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_to_right.xml",
+        "source": "/bitrise/src/res/anim/slide_to_right.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_to_top.xml",
+        "source": "/bitrise/src/res/anim/slide_to_top.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/fade_scale_in.xml",
+        "source": "/bitrise/src/res/anim/fade_scale_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_fab_out.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_from_bottom.xml",
+        "source": "/bitrise/src/res/anim/slide_from_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/animation_toggle_in.xml",
+        "source": "/bitrise/src/res/anim/animation_toggle_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_snackbar_in.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/slide_from_top.xml",
+        "source": "/bitrise/src/res/anim/slide_from_top.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/fade_scale_out.xml",
+        "source": "/bitrise/src/res/anim/fade_scale_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/design_snackbar_out.xml",
+        "source": "/root/.android/build-cache/712d374d35f26faeb19b8d1aeec0ad1bf9f91210/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/bitrise/src/build/intermediates/res/merged/play/debug/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/b7fac2b68250302ff80c50ab44b6531575420126/output/res/anim/abc_slide_in_top.xml"
+    }
+]
